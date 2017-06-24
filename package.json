@@ -1,0 +1,30 @@
+{
+  "name": "everynoise-alexa",
+  "version": "0.0.1",
+  "description": "Alexa skill to play Spotify music from everynoise.com",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "spotify-web-api-node": "git+https://github.com/ojread/spotify-web-api-node.git#3f0018fed46079bd600cdce7e2b6485a41c0afc7"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadule/everynoise-alexa.git"
+  },
+  "keywords": [
+    "alexa",
+    "spotify"
+  ],
+  "author": "Milo Winningham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quadule/everynoise-alexa/issues"
+  },
+  "homepage": "https://github.com/quadule/everynoise-alexa#readme"
+}

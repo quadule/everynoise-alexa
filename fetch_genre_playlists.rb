@@ -15,7 +15,8 @@ genres = rows.reduce({}) do |genres, row|
   name = row.at("td.note:last").text
   link = row.at("a.note")[:href]
   uri = link[PLAYLIST_URI]
-  genres[name] = uri if uri
+
+  genres[name] ||= uri if uri
   genres
 end
 
