@@ -23,4 +23,10 @@ if genres.size < 1500
   raise "Too few genres found (#{genres.size} for #{rows.size} rows)"
 end
 
-puts JSON.pretty_generate(genres)
+File.open("genre_playlists.js", "w") do |f|
+  f << "module.exports = "
+  f << JSON.pretty_generate(genres)
+  f << ";"
+end
+
+puts genres.keys.sort.join("\n")

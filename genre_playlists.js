@@ -1,4 +1,4 @@
-{
+module.exports = {
   "pop": "spotify:user:thesoundsofspotify:playlist:6gS3HhOiI17QNojjPuPzqc",
   "dance pop": "spotify:user:thesoundsofspotify:playlist:2ZIRxkFuqNPMnlY7vL54uK",
   "rap": "spotify:user:thesoundsofspotify:playlist:6s5MoZzR70Qef7x4bVxDO1",
@@ -1517,4 +1517,4 @@
   "rock noise": "spotify:user:thesoundsofspotify:playlist:6jPTE8wgwi7jsQJ7DoD8Zj",
   "deep deep tech house": "spotify:user:thesoundsofspotify:playlist:6dL5fRHzNCWVxneaFru8h4",
   "deep string quartet": "spotify:user:thesoundsofspotify:playlist:24QF21luAUAlgQXICqONO8"
-}
+};
