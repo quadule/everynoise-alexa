@@ -1,0 +1,9 @@
+PlayGenreIntent play {genreName}
+PlayGenreIntent play some {genreName}
+PlayGenreIntent play me {genreName}
+PlayGenreIntent play me some {genreName}
+PlayGenreIntent listen to {genreName}
+PlayGenreIntent listen to some {genreName}
+PlayGenreIntent play a random genre
+PlayGenreIntent play random
+PlayGenreIntent random genre

@@ -8,8 +8,7 @@
 const APP_ID = 'amzn1.ask.skill.548760a3-cde1-4633-944a-ceeb2d8e0a86';
 const Alexa = require('alexa-sdk');
 const SpotifyWebApi = require('spotify-web-api-node');
-const genrePlaylists = require('./genre_playlists');
-const genres = Object.keys(genrePlaylists);
+const genres = require('./genre_playlists');
 
 function escapeResponse(response) {
   return response.replace("&", "&amp;");
@@ -19,7 +18,7 @@ var handlers = {
   'LaunchRequest': function() {
     const genre = genres[Math.floor(Math.random() * genres.length)];
     this.emit(':ask',
-      'What do you want to hear? You could say "play ' + genre + '", or "random".',
+      'What do you want to hear? You could say "play ' + escapeResponse(genre.name) + '", or "random".',
       'What do you want to hear?'
     );
   },
@@ -32,39 +31,42 @@ var handlers = {
       return;
     }
 
-    const spokenGenre = this.event.request.intent.slots.genreName.value;
-    const resolutions = spokenGenre && this.event.request.intent.slots.genreName.resolutions.resolutionsPerAuthority;
+    const spokenGenreName = this.event.request.intent.slots.genreName.value;
+    const resolutions = spokenGenreName && this.event.request.intent.slots.genreName.resolutions.resolutionsPerAuthority;
     const resolution = resolutions && resolutions.find(function(resolution) { return resolution.status.code == 'ER_SUCCESS_MATCH' });
     const value = resolution && resolution.values && resolution.values[0] && resolution.values[0].value;
-    var genre = value && value.name;
+    const genreName = value && value.name && value.name.toLowerCase();
 
-    if(!genre || genres.indexOf(genre) == -1) {
-      if(spokenGenre) {
+    var genre = genreName && genres.find(function(genre) {
+      return genre.name == genreName || genre.alternatives.indexOf(genreName) != -1;
+    });
+
+    if(genre) {
+      this.emit(':tellWithCard',
+        "Ok, here's some " + escapeResponse(genre.name) + ".",
+        "Play some " + genre.name,
+        "Here's some " + genre.name + "."
+      );
+    } else {
+      if(spokenGenreName) {
         this.emit(':tellWithCard',
-          "Sorry, I couldn't find a genre for " + spokenGenre + ".",
-          "Play some " + spokenGenre,
-          "Sorry, I couldn't find a genre for " + spokenGenre + "."
+          "Sorry, I couldn't find a genre for " + spokenGenreName + ".",
+          "Play some " + spokenGenreName,
+          "Sorry, I couldn't find a genre for " + spokenGenreName + "."
         );
         return;
       } else {
         genre = genres[Math.floor(Math.random() * genres.length)];
         this.emit(':tellWithCard',
-          "Ok, here's some " + escapeResponse(genre) + ".",
+          "Ok, here's some " + escapeResponse(genre.name) + ".",
           "Play a random genre",
-          "Here's some " + genre + "."
+          "Here's some " + genre.name + "."
         );
       }
-    } else {
-      this.emit(':tellWithCard',
-        "Ok, here's some " + escapeResponse(genre) + ".",
-        "Play some " + genre,
-        "Here's some " + genre + "."
-      );
     }
 
-    console.log("genre: " + genre);
-    const playlistUri = genrePlaylists[genre];
-    console.log("uri: " + playlistUri);
+    console.log("genre: " + genre.name);
+    console.log("uri: " + genre.uri);
 
     const spotify = new SpotifyWebApi({
       clientId: process.env.SPOTIFY_CLIENT_ID,
@@ -81,7 +83,7 @@ var handlers = {
       if(device) {
         spotify.startMyPlayback({
           device_id: device.id,
-          context_uri: playlistUri
+          context_uri: genre.uri
         }).then(function() {}, console.log);
       } else {
         console.log("no echo found");
