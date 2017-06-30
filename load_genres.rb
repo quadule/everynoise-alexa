@@ -44,6 +44,23 @@ File.open("genre_playlists.js", "w") do |f|
   f << ";"
 end
 
-File.open("genre_slots.txt", "w") do |f|
-  f << genres.flat_map { |g| [g[:name]] + g[:alternatives] }.uniq.join("\n")
+model = JSON.parse(open("model.json").read)
+type = model["types"].find { |t| t["name"] == "EVERYNOISE_GENRES" }
+unless type
+  type = { "name" => "EVERYNOISE_GENRES" }
+  model["types"] << type
+end
+type["values"] = genres.map do |genre|
+  {
+    "id" => "genre_" + genre[:name].gsub(/[^a-z0-9]/, "_"),
+    "name" => {
+      "value" => genre[:name],
+      "synonyms" => genre[:alternatives]
+    }
+  }
+end
+
+
+File.open("model.json", "w") do |f|
+  f << JSON.pretty_generate(model)
 end
