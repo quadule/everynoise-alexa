@@ -7,9 +7,6 @@ const Genre = {
       Genre.all.push(playlist);
       Genre.names.push(playlist.name);
       Genre.byName[playlist.name] = Genre.byName[playlist.name] || playlist;
-      playlist.alternatives.forEach(function(altName) {
-        Genre.byName[altName] = Genre.byName[altName] || playlist;
-      });
     })
   },
   find: function(name) {

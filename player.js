@@ -1,24 +1,23 @@
 const SpotifyWebApi = require('spotify-web-api-node');
 
 function Player(handler) {
-  this.handler = handler;
   this.spotify = new SpotifyWebApi({
     clientId: process.env.SPOTIFY_CLIENT_ID,
     clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
     accessToken: handler.event.session.user.accessToken
   });
+  this.deviceId = handler.attributes.spotifyDeviceId;
 }
 
 Player.prototype.playPlaylist = function(uri) {
   const options = { context_uri: uri }
-  if(this.handler.attributes.spotifyDeviceId) options.device_id = this.handler.attributes.spotifyDeviceId;
-  this.spotify.startMyPlayback(options).then(function() {}, console.log);
+  if(this.deviceId) options.device_id = this.deviceId;
+  return this.spotify.startMyPlayback(options);
 };
 
 Player.prototype.getCurrentDevice = function() {
   return this.spotify.getMyCurrentPlaybackState().then(function(data) {
-    console.log(JSON.stringify(data.body));
-    if(!data.body.device) throw 'No device found.'
+    if(!data.body.device) throw 'No device found.';
     return data.body.device;
   });
 }

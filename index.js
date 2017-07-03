@@ -10,8 +10,8 @@ const Alexa = require('alexa-sdk');
 const Genre = require('./genre');
 const Player = require('./player');
 
-function escapeResponse(response) {
-  return response.replace("&", "&amp;");
+function sayName(name) {
+  return '<emphasis>' + name.replace("&", "&amp;") + '</emphasis>';
 }
 
 function resolveSlot(slot) {
@@ -21,71 +21,91 @@ function resolveSlot(slot) {
   return value && value.name;
 }
 
+function isLinked(handler) {
+  if(handler.event.session.user.accessToken) {
+    return true;
+  } else {
+    handler.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
+    return false;
+  }
+}
+
+function onAPIError(error) {
+  console.log(error);
+  this.emit(':tell', 'Sorry, something went wrong.');
+}
+
 let handlers = {
   'LaunchRequest': function() {
+    if(!isLinked(this)) return;
     this.emit('AMAZON.HelpIntent');
   },
   'AMAZON.HelpIntent': function() {
-    if(!this.event.session.user.accessToken) {
-      this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
-      return;
-    }
-
     const genre = Genre.random();
     this.emit(':ask',
-      'What do you want to hear? You could say "play ' + escapeResponse(genre.name) + '", or "random".',
+      'What do you want to hear? You could say "play ' + sayName(genre.name) + '", or "random".',
       'What do you want to hear?'
     );
   },
   'AMAZON.CancelIntent': function() {
-    this.emit(':tell', 'Ok, goodbye.');
+    this.emit(':tell', 'Goodbye.');
   },
   'AMAZON.StopIntent': function() {
-    this.emit(':tell', 'Ok, goodbye.');
+    this.emit(':tell', 'Goodbye.');
+  },
+  'ListGenresIntent': function() {
+    let genreNames = new Array(6).fill(null).map(function() { return Genre.random().name; });
+    this.emit(':tellWithCard',
+      "Here are a few of the genres I can play. " + genreNames.map(sayName).join(". "),
+      "What can I play?",
+      "Examples: " + genreNames.join(", ")
+    );
   },
   'PlayRandomGenreIntent': function() {
     console.log("event: " + JSON.stringify(this.event));
-
-    if(!this.event.session.user.accessToken) {
-      this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
-      return;
-    }
+    if(!isLinked(this)) return;
 
     const genre = Genre.random();
-    this.emit(':tellWithCard',
-      "Ok, here's some " + escapeResponse(genre.name) + ".",
-      "Play a random genre",
-      "Here's some " + genre.name + "."
-    );
+    this.attributes.lastGenreName = genre.name;
+
     const player = new Player(this);
-    player.playPlaylist(genre.uri);
+    return player.playPlaylist(genre.uri).then(
+      function() {
+        this.emit(':tellWithCard',
+          "Ok, here's some " + sayName(genre.name) + ".",
+          "Play a random genre",
+          "Here's some " + genre.name + "."
+        );
+      }.bind(this),
+      onAPIError.bind(this)
+    );
   },
   'PlayNamedGenreIntent': function() {
     console.log("event: " + JSON.stringify(this.event));
-
-    if(!this.event.session.user.accessToken) {
-      this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
-      return;
-    }
+    if(!isLinked(this)) return;
 
     const spokenGenreName = this.event.request.intent.slots.genreName.value;
     let genreName = resolveSlot(this.event.request.intent.slots.genreName) || spokenGenreName;
     genreName = genreName || spokenGenreName;
     if(genreName) genreName = genreName.toLowerCase();
     const genre = Genre.find(genreName);
-    const player = new Player(this);
 
     if(genre) {
-      this.emit(':tellWithCard',
-        "Ok, here's some " + escapeResponse(genre.name) + ".",
-        "Play some " + genre.name,
-        "Here's some " + genre.name + "."
-      );
-
       console.log("genre: " + genre.name);
       console.log("uri: " + genre.uri);
+      this.attributes.lastGenreName = genre.name;
 
-      player.playPlaylist(genre.uri);
+      const player = new Player(this);
+      return player.playPlaylist(genre.uri).then(
+        function() {
+          this.emit(':tellWithCard',
+            "Ok, here's some " + sayName(genre.name) + ".",
+            "Play some " + genre.name,
+            "Here's some " + genre.name + "."
+          );
+        }.bind(this),
+        onAPIError.bind(this)
+      );
     } else {
       if(spokenGenreName) {
         this.emit(':tellWithCard',
@@ -99,21 +119,30 @@ let handlers = {
       }
     }
   },
-  'SelectSpotifyDeviceIntent': function() {
-    if(!this.event.session.user.accessToken) {
-      this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
-      return;
+  'CurrentGenreIntent': function() {
+    if(this.attributes.lastGenreName) {
+      this.emit(':tell', "I last played some " + sayName(this.attributes.lastGenreName) + ".");
+    } else {
+      this.emit(':tell', "I haven't played anything yet.");
     }
+  },
+  'SelectSpotifyDeviceIntent': function() {
+    if(!isLinked(this)) return;
 
     const player = new Player(this);
     return player.getCurrentDevice().then(function(device) {
       this.attributes.spotifyDeviceId = device.id;
-      this.emit(':tell', "Ok, I'll use the device " + escapeResponse(device.name) + " from now on.");
+      this.emit(':tell', "Ok, I'll play on the device " + sayName(device.name) + " from now on.");
     }.bind(this), function(error) {
       console.log(error);
       delete this.attributes.spotifyDeviceId;
       this.emit(':tell', "I couldn't find a device. Try playing a song on Spotify first.");
     }.bind(this));
+  },
+  'DeselectSpotifyDeviceIntent': function() {
+    if(!isLinked(this)) return;
+    delete this.attributes.spotifyDeviceId;
+    this.emit(':tell', "Ok, I'll play on your last used device from now on.");
   },
   'SessionEndedRequest': function() {
     this.emit(':saveState', true);

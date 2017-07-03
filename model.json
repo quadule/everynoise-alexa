@@ -26,7 +26,34 @@
         "set the output device",
         "select the Spotify device",
         "use the current device",
-        "always play here"
+        "always play here",
+        "lock to this device",
+        "lock the output device"
+      ]
+    },
+    {
+      "name": "DeselectSpotifyDeviceIntent",
+      "samples": [
+        "deselect the output device",
+        "deselect the Spotify device",
+        "always use the last device",
+        "unlock the output device",
+        "unlock the Spotify device",
+        "don't always play on this device"
+      ]
+    },
+    {
+      "name": "ListGenresIntent",
+      "samples": [
+        "list some genres",
+        "what can I play",
+        "what can I listen to",
+        "what genres do you have",
+        "tell me some genres",
+        "tell me more"
+      ],
+      "slots": [
+
       ]
     },
     {
@@ -34,6 +61,8 @@
       "samples": [
         "play a random genre",
         "play random",
+        "play something else",
+        "play something different",
         "random genre",
         "random"
       ],
@@ -59,6 +88,18 @@
 
           ]
         }
+      ]
+    },
+    {
+      "name": "CurrentGenreIntent",
+      "samples": [
+        "what genre is this",
+        "what is this",
+        "what am i listening to",
+        "current genre"
+      ],
+      "slots": [
+
       ]
     }
   ],
