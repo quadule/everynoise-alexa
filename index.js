@@ -11,7 +11,7 @@ const Genre = require('./genre');
 const Player = require('./player');
 
 function sayName(name) {
-  return '<emphasis>' + name.replace("&", "&amp;") + '</emphasis>';
+  return '<prosody pitch="+6%" volume="loud">' + name.replace("&", "&amp;") + '</prosody>';
 }
 
 function resolveSlot(slot) {
