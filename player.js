@@ -11,8 +11,20 @@ function Player(handler) {
 
 Player.prototype.playPlaylist = function(uri) {
   const options = { context_uri: uri }
-  if(this.deviceId) options.device_id = this.deviceId;
-  return this.spotify.startMyPlayback(options);
+  options.device_id = this.deviceId;
+  if(this.deviceId) {
+    return this.getCurrentDevice().then(function(device) {
+      if(device.id != this.deviceId) {
+        return this.spotify.transferMyPlayback({ deviceIds: [this.deviceId] }).then(function() {
+          return this.spotify.startMyPlayback(options);
+        }.bind(this));
+      } else {
+        return this.spotify.startMyPlayback(options);
+      }
+    }.bind(this));
+  } else {
+    return this.spotify.startMyPlayback(options);
+  }
 };
 
 Player.prototype.getCurrentDevice = function() {
