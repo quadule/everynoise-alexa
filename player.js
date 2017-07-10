@@ -11,16 +11,10 @@ function Player(handler) {
 
 Player.prototype.playPlaylist = function(uri) {
   const options = { context_uri: uri }
-  options.device_id = this.deviceId;
   if(this.deviceId) {
-    return this.getCurrentDevice().then(function(device) {
-      if(device.id != this.deviceId) {
-        return this.spotify.transferMyPlayback({ deviceIds: [this.deviceId] }).then(function() {
-          return this.spotify.startMyPlayback(options);
-        }.bind(this));
-      } else {
-        return this.spotify.startMyPlayback(options);
-      }
+    options.device_id = this.deviceId;
+    return this.spotify.startMyPlayback(options).then(function() {
+      setTimeout(this.checkCurrentDeviceAndTransfer.bind(this), 500);
     }.bind(this));
   } else {
     return this.spotify.startMyPlayback(options);
@@ -32,6 +26,14 @@ Player.prototype.getCurrentDevice = function() {
     if(!data.body.device) throw 'No device found.';
     return data.body.device;
   });
-}
+};
+
+Player.prototype.checkCurrentDeviceAndTransfer = function() {
+  return this.getCurrentDevice().then(function(device) {
+    if(device.id != this.deviceId) {
+      this.spotify.transferMyPlayback({ deviceIds: [this.deviceId], play: true })
+    }
+  }.bind(this));
+};
 
 module.exports = Player;
