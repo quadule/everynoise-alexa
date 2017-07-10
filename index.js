@@ -38,13 +38,15 @@ function onAPIError(error) {
 let handlers = {
   'LaunchRequest': function() {
     if(!isLinked(this)) return;
-    this.emit('AMAZON.HelpIntent');
+    this.emit(':ask', 'What do you want to hear?');
   },
   'AMAZON.HelpIntent': function() {
     const genre = Genre.random();
     this.emit(':ask',
-      'What do you want to hear? You could say "play ' + sayName(genre.name) + '", or "random".',
-      'What do you want to hear?'
+      '<s>You can tell me to play any musical genre, such as ' +
+        sayName(Genre.random().name) + ' or ' + sayName(Genre.random().name) + '.</s>' +
+        '<s>You also can ask what else I can play, or to play something random.</s>',
+      'What do you want to do?'
     );
   },
   'AMAZON.CancelIntent': function() {
@@ -149,7 +151,6 @@ let handlers = {
   },
   'Unhandled': function() {
     this.emit(':tell', "Sorry, I didn't get that.");
-    this.emit('AMAZON.HelpIntent');
   }
 };
 
