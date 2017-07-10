@@ -48,7 +48,9 @@
         "list some genres",
         "what can I play",
         "what can I listen to",
+        "what else can I listen to",
         "what genres do you have",
+        "what do you have",
         "tell me some genres",
         "tell me more"
       ],
@@ -61,10 +63,12 @@
       "samples": [
         "play a random genre",
         "play random",
+        "play something new",
         "play something else",
         "play something different",
         "random genre",
-        "random"
+        "random",
+        "choose for me"
       ],
       "slots": [
 
@@ -96,6 +100,8 @@
         "what genre is this",
         "what is this",
         "what am i listening to",
+        "what are you playing",
+        "what's playing",
         "current genre"
       ],
       "slots": [
