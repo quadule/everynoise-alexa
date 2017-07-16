@@ -46,11 +46,16 @@ let handlers = {
   },
   'AMAZON.HelpIntent': function() {
     const genre = Genre.random();
-    this.emit(':ask',
+    this.emit(':askWithCard',
       '<s>You can tell me to play any musical genre, such as ' +
         sayName(Genre.random().name) + ' or ' + sayName(Genre.random().name) + '.</s>' +
-        '<s>You also can ask what else I can play, or to play something random.</s>',
-      'What do you want to do?'
+        '<s>Try asking what else I can play, or to play something random.</s>' +
+        '<s>You can also ask to play or list similar genres, or to follow a genre playlist on your Spotify account.</s>' +
+        '<s>What do you want to do?</s>',
+      '<s>What do you want to do?</s>',
+      'Things you can do',
+      'Play ' + Genre.random().name + '. Play some ' + Genre.random().name + '. Play a random genre. ' +
+        'What can I play? What is this? What else might I like? Play something else like this. Follow this genre.'
     );
   },
   'AMAZON.CancelIntent': function() {
@@ -60,11 +65,11 @@ let handlers = {
     this.emit(':tell', 'Goodbye.');
   },
   'ListGenresIntent': function() {
-    let genreNames = new Array(6).fill(null).map(function() { return Genre.random().name; });
+    let genreNames = new Array(8).fill(null).map(function() { return Genre.random().name; });
     this.emit(':tellWithCard',
       "Here are a few of the genres I can play. " + genreNames.map(sayName).join(". "),
-      "What can I play?",
-      "Examples: " + genreNames.join(", ")
+      "List some genres",
+      genreNames.join(", ")
     );
   },
   'PlayRandomGenreIntent': function() {
@@ -146,7 +151,7 @@ let handlers = {
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
       this.attributes.lastGenreName = newGenre.name;
       this.emit(':tellWithCard',
-        "Ok, you might also like some " + sayName(newGenre.name) + ".",
+        "Ok, here's some " + sayName(newGenre.name) + ".",
         "Play something similar to " + currentGenre.name,
         "Here's some " + newGenre.name + "."
       );
