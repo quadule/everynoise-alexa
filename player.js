@@ -7,7 +7,7 @@ function Player(handler) {
     clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
     accessToken: handler.event.session.user.accessToken
   });
-  this.deviceId = handler.attributes.spotifyDeviceId;
+  this.deviceId = handler.attributes.spotifyDeviceMap && handler.attributes.spotifyDeviceMap[handler.event.context.System.device.deviceId];
 }
 
 Player.prototype.playPlaylist = function(uri) {

@@ -191,17 +191,19 @@ let handlers = {
 
     const player = new Player(this);
     return player.getCurrentDevice().then(function(device) {
-      this.attributes.spotifyDeviceId = device.id;
+      this.attributes.spotifyDeviceMap = this.attributes.spotifyDeviceMap || {};
+      this.attributes.spotifyDeviceMap[this.event.context.System.device.deviceId] = device.id;
       this.emit(':tell', "Ok, I'll play on the device " + sayName(device.name) + " from now on.");
     }.bind(this), function(error) {
       console.log(error);
-      delete this.attributes.spotifyDeviceId;
       this.emit(':tell', "I couldn't find a device. Try playing a song on Spotify first.");
     }.bind(this));
   },
   'DeselectSpotifyDeviceIntent': function() {
     if(!isLinked(this)) return;
-    delete this.attributes.spotifyDeviceId;
+    if(this.attributes.spotifyDeviceMap) {
+      delete this.attributes.spotifyDeviceMap[this.event.context.System.device.deviceId];
+    }
     this.emit(':tell', "Ok, I'll play on your last used device from now on.");
   },
   'SessionEndedRequest': function() {
