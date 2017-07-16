@@ -47,6 +47,21 @@
       ]
     },
     {
+      "name": "FollowPlaylistIntent",
+      "samples": [
+        "follow this",
+        "follow this genre",
+        "follow this playlist",
+        "save this",
+        "save this genre",
+        "save this playlist",
+        "save to my music"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
       "name": "ListGenresIntent",
       "samples": [
         "list some genres",
@@ -75,7 +90,8 @@
         "similar genres",
         "related genres",
         "genres related to this",
-        "genres similar to this"
+        "genres similar to this",
+        "other genres like this"
       ],
       "slots": [
 
@@ -150,7 +166,26 @@
         "use the current device",
         "always play here",
         "lock to this device",
-        "lock the output device"
+        "lock the output device",
+        "lock the Spotify device"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
+      "name": "UnfollowPlaylistIntent",
+      "samples": [
+        "unfollow this",
+        "unfollow this genre",
+        "unfollow this playlist",
+        "delete this",
+        "delete this genre",
+        "delete this playlist",
+        "remove this",
+        "remove this genre",
+        "remove this playlist",
+        "remove from my music"
       ],
       "slots": [
 

@@ -32,7 +32,11 @@ function isLinked(handler) {
 
 function onAPIError(error) {
   console.log(error);
-  this.emit(':tell', 'Sorry, something went wrong.');
+  if(error && error.statusCode == 403) {
+    this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
+  } else {
+    this.emit(':tell', 'Sorry, something went wrong.');
+  }
 }
 
 let handlers = {
@@ -123,7 +127,6 @@ let handlers = {
   'ListSimilarGenresIntent': function() {
     const player = new Player(this);
     return player.getCurrentGenre().then(function(currentGenre) {
-      console.log(currentGenre);
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const similarNames = currentGenre.similar.map(function(g) { return g.name; });
       this.emit(':tellWithCard',
@@ -139,7 +142,6 @@ let handlers = {
   'PlaySimilarGenreIntent': function() {
     const player = new Player(this);
     return player.getCurrentGenre().then(function(currentGenre) {
-      console.log(currentGenre);
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
       this.attributes.lastGenreName = newGenre.name;
@@ -153,6 +155,36 @@ let handlers = {
       console.log(error);
       this.emit(':tell', "Sorry, I couldn't find anything.");
     }.bind(this));
+  },
+  'FollowPlaylistIntent': function() {
+    const player = new Player(this);
+    return player.spotify.getMyCurrentPlaybackState().then(function(data) {
+      const uri = data.body && data.body.context && data.body.context.uri;
+      if(uri && uri.indexOf("spotify:user:") == 0) {
+        const uriParts = uri.split(':');
+        const user = uriParts[2], id = uriParts[4];
+        return player.spotify.followPlaylist(user, id, { public: false }).then(function() {
+          this.emit(':tell', "Ok, you now follow this playlist.");
+        }.bind(this));
+      } else {
+        this.emit(':tell', "I couldn't find a playlist to follow.");
+      }
+    }.bind(this)).then(null, onAPIError.bind(this));
+  },
+  'UnfollowPlaylistIntent': function() {
+    const player = new Player(this);
+    return player.spotify.getMyCurrentPlaybackState().then(function(data) {
+      const uri = data.body && data.body.context && data.body.context.uri;
+      if(uri && uri.indexOf("spotify:user:") == 0) {
+        const uriParts = uri.split(':');
+        const user = uriParts[2], id = uriParts[4];
+        return player.spotify.unfollowPlaylist(user, id).then(function() {
+          this.emit(':tell', "Ok, you no longer follow this playlist.");
+        }.bind(this));
+      } else {
+        this.emit(':tell', "I couldn't find a playlist to unfollow.");
+      }
+    }.bind(this)).then(null, onAPIError.bind(this));
   },
   'SelectSpotifyDeviceIntent': function() {
     if(!isLinked(this)) return;
