@@ -69,18 +69,14 @@ let handlers = {
 
     const genre = Genre.random();
     this.attributes.lastGenreName = genre.name;
+    this.emit(':tellWithCard',
+      "Ok, here's some " + sayName(genre.name) + ".",
+      "Play a random genre",
+      "Here's some " + genre.name + "."
+    );
 
     const player = new Player(this);
-    return player.playPlaylist(genre.uri).then(
-      function() {
-        this.emit(':tellWithCard',
-          "Ok, here's some " + sayName(genre.name) + ".",
-          "Play a random genre",
-          "Here's some " + genre.name + "."
-        );
-      }.bind(this),
-      onAPIError.bind(this)
-    );
+    return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
   },
   'PlayNamedGenreIntent': function() {
     console.log("event: " + JSON.stringify(this.event));
@@ -96,18 +92,14 @@ let handlers = {
       console.log("genre: " + genre.name);
       console.log("uri: " + genre.uri);
       this.attributes.lastGenreName = genre.name;
+      this.emit(':tellWithCard',
+        "Ok, here's some " + sayName(genre.name) + ".",
+        "Play some " + genre.name,
+        "Here's some " + genre.name + "."
+      );
 
       const player = new Player(this);
-      return player.playPlaylist(genre.uri).then(
-        function() {
-          this.emit(':tellWithCard',
-            "Ok, here's some " + sayName(genre.name) + ".",
-            "Play some " + genre.name,
-            "Here's some " + genre.name + "."
-          );
-        }.bind(this),
-        onAPIError.bind(this)
-      );
+      return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
     } else {
       if(spokenGenreName) {
         this.emit(':tellWithCard',
@@ -150,14 +142,13 @@ let handlers = {
       console.log(currentGenre);
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
-      return player.playPlaylist(newGenre.uri).then(function() {
-        this.attibutes.lastGenreName = newGenre.name;
-        this.emit(':tellWithCard',
-          "Ok, you might also like some " + sayName(newGenre.name) + ".",
-          "Play something similar to " + currentGenre.name,
-          "Here's some " + newGenre.name + "."
-        );
-      }.bind(this));
+      this.attributes.lastGenreName = newGenre.name;
+      this.emit(':tellWithCard',
+        "Ok, you might also like some " + sayName(newGenre.name) + ".",
+        "Play something similar to " + currentGenre.name,
+        "Here's some " + newGenre.name + "."
+      );
+      return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
       console.log(error);
       this.emit(':tell', "Sorry, I couldn't find anything.");
