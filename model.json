@@ -19,16 +19,17 @@
       ]
     },
     {
-      "name": "SelectSpotifyDeviceIntent",
+      "name": "CurrentGenreIntent",
       "samples": [
-        "play on this device",
-        "play on the current device",
-        "set the output device",
-        "select the Spotify device",
-        "use the current device",
-        "always play here",
-        "lock to this device",
-        "lock the output device"
+        "what genre is this",
+        "what is this",
+        "what am i listening to",
+        "what are you playing",
+        "what's playing",
+        "current genre"
+      ],
+      "slots": [
+
       ]
     },
     {
@@ -40,6 +41,9 @@
         "unlock the output device",
         "unlock the Spotify device",
         "don't always play on this device"
+      ],
+      "slots": [
+
       ]
     },
     {
@@ -78,43 +82,6 @@
       ]
     },
     {
-      "name": "PlaySimilarGenreIntent",
-      "samples": [
-        "play something similar",
-        "play something related",
-        "play something else like this",
-        "play something else I would like",
-        "play something that sounds like this",
-        "play a similar genre",
-        "play a related genre",
-        "something else like this",
-        "something similar",
-        "something related",
-        "a genre like this",
-        "a similar genre",
-        "a related genre"
-      ],
-      "slots": [
-
-      ]
-    },
-    {
-      "name": "PlayRandomGenreIntent",
-      "samples": [
-        "play a random genre",
-        "play random",
-        "play something new",
-        "play something else",
-        "play something different",
-        "random genre",
-        "random",
-        "choose for me"
-      ],
-      "slots": [
-
-      ]
-    },
-    {
       "name": "PlayNamedGenreIntent",
       "samples": [
         "play {genreName}",
@@ -137,14 +104,53 @@
       ]
     },
     {
-      "name": "CurrentGenreIntent",
+      "name": "PlayRandomGenreIntent",
       "samples": [
-        "what genre is this",
-        "what is this",
-        "what am i listening to",
-        "what are you playing",
-        "what's playing",
-        "current genre"
+        "play a random genre",
+        "play random",
+        "play something new",
+        "play something else",
+        "play something different",
+        "random genre",
+        "random",
+        "choose for me"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
+      "name": "PlaySimilarGenreIntent",
+      "samples": [
+        "play something similar",
+        "play something related",
+        "play something else like this",
+        "play something else I would like",
+        "play something that sounds like this",
+        "play a similar genre",
+        "play a related genre",
+        "something else like this",
+        "something similar",
+        "something related",
+        "a genre like this",
+        "a similar genre",
+        "a related genre"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
+      "name": "SelectSpotifyDeviceIntent",
+      "samples": [
+        "play on this device",
+        "play on the current device",
+        "set the output device",
+        "select the Spotify device",
+        "use the current device",
+        "always play here",
+        "lock to this device",
+        "lock the output device"
       ],
       "slots": [
 
