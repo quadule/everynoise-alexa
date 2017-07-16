@@ -73,7 +73,6 @@ let handlers = {
     );
   },
   'PlayRandomGenreIntent': function() {
-    console.log("event: " + JSON.stringify(this.event));
     if(!isLinked(this)) return;
 
     const genre = Genre.random();
@@ -88,7 +87,6 @@ let handlers = {
     return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
   },
   'PlayNamedGenreIntent': function() {
-    console.log("event: " + JSON.stringify(this.event));
     if(!isLinked(this)) return;
 
     const spokenGenreName = this.event.request.intent.slots.genreName.value;
@@ -98,8 +96,6 @@ let handlers = {
     const genre = Genre.find(genreName);
 
     if(genre) {
-      console.log("genre: " + genre.name);
-      console.log("uri: " + genre.uri);
       this.attributes.lastGenreName = genre.name;
       this.emit(':tellWithCard',
         "Ok, here's some " + sayName(genre.name) + ".",
