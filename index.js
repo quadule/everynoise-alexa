@@ -128,6 +128,41 @@ let handlers = {
       this.emit(':tell', "I haven't played anything yet.");
     }
   },
+  'ListSimilarGenresIntent': function() {
+    const player = new Player(this);
+    return player.getCurrentGenre().then(function(currentGenre) {
+      console.log(currentGenre);
+      if(currentGenre.similar.length == 0) throw "no similar genres found";
+      const similarNames = currentGenre.similar.map(function(g) { return g.name; });
+      this.emit(':tellWithCard',
+        "Here are some genres similar to " + sayName(currentGenre.name) + ". " + similarNames.map(sayName).join(". "),
+        "Genres similar to " + currentGenre.name,
+        similarNames.join(", ")
+      );
+    }.bind(this)).then(null, function(error) {
+      console.log(error);
+      this.emit(':tell', "Sorry, I couldn't find anything.");
+    }.bind(this));
+  },
+  'PlaySimilarGenreIntent': function() {
+    const player = new Player(this);
+    return player.getCurrentGenre().then(function(currentGenre) {
+      console.log(currentGenre);
+      if(currentGenre.similar.length == 0) throw "no similar genres found";
+      const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
+      return player.playPlaylist(newGenre.uri).then(function() {
+        this.attibutes.lastGenreName = newGenre.name;
+        this.emit(':tellWithCard',
+          "Ok, you might also like some " + sayName(newGenre.name) + ".",
+          "Play something similar to " + currentGenre.name,
+          "Here's some " + newGenre.name + "."
+        );
+      }.bind(this));
+    }.bind(this)).then(null, function(error) {
+      console.log(error);
+      this.emit(':tell', "Sorry, I couldn't find anything.");
+    }.bind(this));
+  },
   'SelectSpotifyDeviceIntent': function() {
     if(!isLinked(this)) return;
 

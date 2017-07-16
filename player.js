@@ -1,3 +1,4 @@
+const Genre = require('./genre');
 const SpotifyWebApi = require('spotify-web-api-node');
 
 function Player(handler) {
@@ -26,6 +27,33 @@ Player.prototype.getCurrentDevice = function() {
     if(!data.body.device) throw 'No device found.';
     return data.body.device;
   });
+};
+
+Player.prototype.getCurrentPlaybackState = function() {
+  return this.spotify.getMyCurrentPlaybackState().then(function(data) {
+    if(!data.body.item) throw 'No item found.';
+    return data.body;
+  });
+};
+
+Player.prototype.getCurrentGenre = function() {
+  return this.spotify.getMyCurrentPlaybackState().then(function(data) {
+    const genre = data.body && data.body.context && Genre.byUri[data.body.context.uri];
+    if(genre) {
+      const uriParts = genre.uri.split(':');
+      const user = uriParts[2], id = uriParts[4];
+      return this.spotify.getPlaylist(user, id, { fields: "description" }).then(function(data) {
+        genre.similar = Genre.similarFromDescription(data.body.description);
+        return genre;
+      });
+    } else {
+      if(data.body && data.body.context) {
+        throw "genre not found for context uri: " + data.body.context.uri;
+      } else {
+        throw "playback context not found";
+      }
+    }
+  }.bind(this));
 };
 
 Player.prototype.checkCurrentDeviceAndTransfer = function() {

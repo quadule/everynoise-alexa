@@ -48,11 +48,51 @@
         "list some genres",
         "what can I play",
         "what can I listen to",
-        "what else can I listen to",
         "what genres do you have",
         "what do you have",
         "tell me some genres",
         "tell me more"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
+      "name": "ListSimilarGenresIntent",
+      "samples": [
+        "list similar genres",
+        "tell me similar genres",
+        "tell me other genres like this",
+        "what else is like this",
+        "what else sounds like this",
+        "what else would I like",
+        "what else can I listen to",
+        "what else is related to this",
+        "similar genres",
+        "related genres",
+        "genres related to this",
+        "genres similar to this"
+      ],
+      "slots": [
+
+      ]
+    },
+    {
+      "name": "PlaySimilarGenreIntent",
+      "samples": [
+        "play something similar",
+        "play something related",
+        "play something else like this",
+        "play something else I would like",
+        "play something that sounds like this",
+        "play a similar genre",
+        "play a related genre",
+        "something else like this",
+        "something similar",
+        "something related",
+        "a genre like this",
+        "a similar genre",
+        "a related genre"
       ],
       "slots": [
 
@@ -79,10 +119,12 @@
       "samples": [
         "play {genreName}",
         "play some {genreName}",
+        "play genre {genreName}",
         "play me {genreName}",
         "play me some {genreName}",
         "listen to {genreName}",
-        "listen to some {genreName}"
+        "listen to some {genreName}",
+        "genre {genreName}"
       ],
       "slots": [
         {
