@@ -42,20 +42,24 @@ function onAPIError(error) {
 let handlers = {
   'LaunchRequest': function() {
     if(!isLinked(this)) return;
-    this.emit(':ask', 'What do you want to hear?');
+    this.emit(':ask',
+      '<s>What do you want to hear?</s>' +
+        '<s>I can play musical genres by name or at random.</s>'
+    );
   },
   'AMAZON.HelpIntent': function() {
     const genre = Genre.random();
     this.emit(':askWithCard',
       '<s>You can tell me to play any musical genre, such as ' +
-        sayName(Genre.random().name) + ' or ' + sayName(Genre.random().name) + '.</s>' +
+        sayName(Genre.random().name) + ', or ' + sayName(Genre.random().name) + '.</s>' +
         '<s>Try asking what else I can play, or to play something random.</s>' +
         '<s>You can also ask to play or list similar genres, or to follow a genre playlist on your Spotify account.</s>' +
         '<s>What do you want to do?</s>',
       '<s>What do you want to do?</s>',
-      'Things you can do',
-      'Play ' + Genre.random().name + '. Play some ' + Genre.random().name + '. Play a random genre. ' +
-        'What can I play? What is this? What else might I like? Play something else like this. Follow this genre.'
+      'Some Things You Can Do',
+      'Play music: "Play ' + Genre.random().name + '" or "Play a random genre" or "Play something similar"\n\n' +
+        'Explore: "What can I play?" or "What else is like this?"\n\n' +
+        'Save your discoveries on Spotify: "Follow this genre"'
     );
   },
   'AMAZON.CancelIntent': function() {
@@ -66,9 +70,9 @@ let handlers = {
   },
   'ListGenresIntent': function() {
     let genreNames = new Array(8).fill(null).map(function() { return Genre.random().name; });
-    this.emit(':tellWithCard',
+    this.emit(':tell',
       "Here are a few of the genres I can play. " + genreNames.map(sayName).join(". "),
-      "List some genres",
+      "Some Example Genres",
       genreNames.join(", ")
     );
   },
@@ -77,11 +81,7 @@ let handlers = {
 
     const genre = Genre.random();
     this.attributes.lastGenreName = genre.name;
-    this.emit(':tellWithCard',
-      "Ok, here's some " + sayName(genre.name) + ".",
-      "Play a random genre",
-      "Here's some " + genre.name + "."
-    );
+    this.emit(':tell', "Ok, here's some " + sayName(genre.name) + ".");
 
     const player = new Player(this);
     return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
@@ -97,22 +97,13 @@ let handlers = {
 
     if(genre) {
       this.attributes.lastGenreName = genre.name;
-      this.emit(':tellWithCard',
-        "Ok, here's some " + sayName(genre.name) + ".",
-        "Play some " + genre.name,
-        "Here's some " + genre.name + "."
-      );
+      this.emit(':tell', "Ok, here's some " + sayName(genre.name) + ".");
 
       const player = new Player(this);
       return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
     } else {
       if(spokenGenreName) {
-        this.emit(':tellWithCard',
-          "Sorry, I couldn't find a genre for " + spokenGenreName + ".",
-          "Play some " + spokenGenreName,
-          "Sorry, I couldn't find a genre for " + spokenGenreName + "."
-        );
-        return;
+        this.emit(':tell', "Sorry, I couldn't find a genre for " + spokenGenreName + ".");
       } else {
         this.emit('Unhandled');
       }
@@ -130,10 +121,9 @@ let handlers = {
     return player.getCurrentGenre().then(function(currentGenre) {
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const similarNames = currentGenre.similar.map(function(g) { return g.name; });
-      this.emit(':tellWithCard',
-        "Here are some genres similar to " + sayName(currentGenre.name) + ". " + similarNames.map(sayName).join(". "),
-        "Genres similar to " + currentGenre.name,
-        similarNames.join(", ")
+      this.emit(':tell',
+        "Here are some genres similar to " + sayName(currentGenre.name) + ". " +
+          similarNames.map(sayName).join(". ")
       );
     }.bind(this)).then(null, function(error) {
       console.log(error);
@@ -146,11 +136,7 @@ let handlers = {
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
       this.attributes.lastGenreName = newGenre.name;
-      this.emit(':tellWithCard',
-        "Ok, here's some " + sayName(newGenre.name) + ".",
-        "Play something similar to " + currentGenre.name,
-        "Here's some " + newGenre.name + "."
-      );
+      this.emit(':tell', "Ok, here's some " + sayName(newGenre.name) + ".");
       return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
       console.log(error);
