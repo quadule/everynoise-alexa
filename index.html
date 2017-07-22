@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Every Noise at Once for Alexa</title>
+  <style>
+    body {
+      font: 14px GillSansRegular, "Gill Sans MT", "Gill Sans", "Trebuchet MS", sans-serif;
+    }
+    h1 a {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1 em {
+      color: #333;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>
+    <a href="http://everynoise.com">Every Noise at Once</a>
+    <em>for Alexa</em>
+  </h1>
+
+  <p>This skill requires a Spotify Premium account to play music.</p>
+
+  <h2>
+    <a id="login" href="https://accounts.spotify.com/authorize">Log In to Spotify</a>
+    <script type="text/javascript">
+      var button = document.getElementById("login");
+      button.href = button.href + window.location.search;
+    </script>
+  </h2>
+</body>
+</html>
