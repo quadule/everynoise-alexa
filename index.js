@@ -91,7 +91,6 @@ let handlers = {
 
     const spokenGenreName = this.event.request.intent.slots.genreName.value;
     let genreName = resolveSlot(this.event.request.intent.slots.genreName) || spokenGenreName;
-    genreName = genreName || spokenGenreName;
     if(genreName) genreName = genreName.toLowerCase();
     const genre = Genre.find(genreName);
 
