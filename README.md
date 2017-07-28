@@ -14,7 +14,9 @@ This skill requires a Spotify Premium account to play music and follow playlists
 * Ask what you're hearing: "Alexa, ask Every Noise what is this?"
 * Follow the playlist for a genre you've discovered: "Alexa, ask Every Noise to follow this playlist."
 
-If you'd like to always play on a certain Spotify Connect device, first use Spotify to transfer playback to that device.
+This skill can play music on any Spotify Connect compatible device, including Amazon Echo. Before using this skill, make sure that you can use the official Spotify app on a phone or computer to control playback on your device. If your Echo does not appear in the Spotify app, try saying "Alexa, Spotify Connect" first.
+
+By default, this skill always will play music on the device you last used with Spotify. If you use Spotify on multiple devices, you may want to lock playback to a specific device:
 
 * Lock to currently playing device: "Alexa, ask Every Noise to lock the Spotify device."
 * Default to the last used device: "Alexa, ask Every Noise to always use the last device."

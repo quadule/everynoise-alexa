@@ -15,7 +15,7 @@ function sayName(name) {
 }
 
 function resolveSlot(slot) {
-  const resolutions = slot.value && slot.resolutions.resolutionsPerAuthority;
+  const resolutions = slot.value && slot.resolutions && slot.resolutions.resolutionsPerAuthority;
   const resolution = resolutions && resolutions.find(function(resolution) { return resolution.status.code == 'ER_SUCCESS_MATCH' });
   const value = resolution && resolution.values && resolution.values[0] && resolution.values[0].value;
   return value && value.name;
