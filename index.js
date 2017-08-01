@@ -125,8 +125,12 @@ let handlers = {
           similarNames.map(sayName).join(". ")
       );
     }.bind(this)).then(null, function(error) {
-      console.log(error);
-      this.emit(':tell', "Sorry, I couldn't find anything.");
+      if(error.indexOf("no genre") == 0) {
+        this.emit(':tell', "You must play a genre before I can tell you similar genres.");
+      } else {
+        console.log(error);
+        this.emit(':tell', "Sorry, I couldn't find anything.");
+      }
     }.bind(this));
   },
   'PlaySimilarGenreIntent': function() {
@@ -138,8 +142,12 @@ let handlers = {
       this.emit(':tell', "Ok, here's some " + sayName(newGenre.name) + ".");
       return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
-      console.log(error);
-      this.emit(':tell', "Sorry, I couldn't find anything.");
+      if(error.indexOf("no genre") == 0) {
+        this.emit(':tell', "You must play a genre before I can play similar genres.");
+      } else {
+        console.log(error);
+        this.emit(':tell', "Sorry, I couldn't find anything.");
+      }
     }.bind(this));
   },
   'FollowPlaylistIntent': function() {

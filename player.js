@@ -48,9 +48,9 @@ Player.prototype.getCurrentGenre = function() {
       });
     } else {
       if(data.body && data.body.context) {
-        throw "genre not found for context uri: " + data.body.context.uri;
+        throw "no genre: for " + data.body.context.uri;
       } else {
-        throw "playback context not found";
+        throw "no genre: missing playback context";
       }
     }
   }.bind(this));
