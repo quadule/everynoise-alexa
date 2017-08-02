@@ -125,7 +125,7 @@ let handlers = {
           similarNames.map(sayName).join(". ")
       );
     }.bind(this)).then(null, function(error) {
-      if(error.indexOf("no genre") == 0) {
+      if(typeof error == "string" && error.indexOf("no genre") == 0) {
         this.emit(':tell', "You must play a genre before I can tell you similar genres.");
       } else {
         console.log(error);
@@ -142,7 +142,7 @@ let handlers = {
       this.emit(':tell', "Ok, here's some " + sayName(newGenre.name) + ".");
       return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
-      if(error.indexOf("no genre") == 0) {
+      if(typeof error == "string" && error.indexOf("no genre") == 0) {
         this.emit(':tell', "You must play a genre before I can play similar genres.");
       } else {
         console.log(error);
