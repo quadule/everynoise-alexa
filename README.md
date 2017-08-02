@@ -1,5 +1,8 @@
 # [Every Noise at Once](http://everynoise.com) for Alexa
 
+Available now in the Alexa Skills store: <br>
+**<https://www.amazon.com/dp/B0745WPMSF>**
+
 ## Usage
 
 Play over 1500 genres on Spotify by name or at random. Explore similar genres and music from around the world. Follow playlists for genres you discover so you can play them from Spotify anywhere.
