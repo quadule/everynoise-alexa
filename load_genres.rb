@@ -49,7 +49,7 @@ genres = rows.map do |row|
   link = row.at("a.note")[:href]
   uri = link[PLAYLIST_URI]
   Genre.new(name, uri)
-end
+end.sort_by(&:name)
 
 if genres.size < 1500
   raise "Too few genres found (#{genres.size} for #{rows.size} rows)"
