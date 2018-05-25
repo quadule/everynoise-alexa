@@ -10,15 +10,11 @@ Genre = Struct.new(:name, :uri) do
 
   def synonyms
     [
-      (name.gsub("-", " ") if name.include?("-")),
-      (name.gsub(/^nu[- ](\w+)/, 'new \1') if name =~ /^nu[- ]/),
-      (name.gsub(/^nu[- ](\w+)/, 'new\1') if name =~ /^nu[- ]/),
-      (name.gsub(/([a-z])core$/, '\1 core').gsub("-", " ") if name =~ /([a-z])core$/),
-      (name.gsub(/([a-z])gaze$/, '\1 gaze').gsub("-", " ") if name =~ /([a-z])gaze$/),
-      (name.gsub(/([a-z])pop$/, '\1 pop').gsub("-", " ") if name =~ /([a-z])pop$/),
-      (name.gsub("poppunk", "pop punk") if name.include?("poppunk")),
+      name.gsub("-", " "),
+      name.gsub(/^nu[- ](\w+)/, 'new \1').gsub("-", " "),
+      name.gsub(/(?<=[[:alpha:]])(core|folk|gaze|pop|punk|rock)$/, ' \1').gsub("-", " "),
       ("acapella" if name == "a cappella")
-    ].compact
+    ].compact.uniq - [name]
   end
 
   def to_js
