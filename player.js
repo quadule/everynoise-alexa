@@ -15,7 +15,7 @@ Player.prototype.playPlaylist = function(uri) {
   if(this.deviceId) {
     options.device_id = this.deviceId;
     return this.spotify.startMyPlayback(options).then(function() {
-      setTimeout(this.checkCurrentDeviceAndTransfer.bind(this), 1000);
+      setTimeout(this.checkCurrentDeviceAndTransfer.bind(this), 2000);
     }.bind(this));
   } else {
     return this.spotify.startMyPlayback(options);
