@@ -62,10 +62,9 @@ File.open("genre_playlists.js", "w") do |f|
 end
 
 model = JSON.parse(open("model.json").read)
-type = model["types"].find { |t| t["name"] == "EVERYNOISE_GENRES" }
-unless type
-  type = { "name" => "EVERYNOISE_GENRES" }
-  model["types"] << type
+types = model.fetch("interactionModel").fetch("languageModel").fetch("types")
+unless type = types.find { |t| t["name"] == "EVERYNOISE_GENRES" }
+  types << { "name" => "EVERYNOISE_GENRES" }
 end
 type["values"] = genres.map(&:to_model)
 
