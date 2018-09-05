@@ -57,13 +57,14 @@ File.open("genre_playlists.js", "w") do |f|
   f << ";"
 end
 
-model = JSON.parse(open("model.json").read)
+model_path = File.join(__dir__, "models/en-US.json")
+model = JSON.parse(open(model_path).read)
 types = model.fetch("interactionModel").fetch("languageModel").fetch("types")
 unless type = types.find { |t| t["name"] == "EVERYNOISE_GENRES" }
   types << { "name" => "EVERYNOISE_GENRES" }
 end
 type["values"] = genres.map(&:to_model)
 
-File.open("model.json", "w") do |f|
+File.open(model_path, "w") do |f|
   f << JSON.pretty_generate(model)
 end

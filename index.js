@@ -48,12 +48,11 @@ let handlers = {
     );
   },
   'AMAZON.HelpIntent': function() {
-    const genre = Genre.random();
     this.emit(':askWithCard',
       '<s>You can tell me to play any musical genre, such as ' +
-        sayName(Genre.random().name) + ', or ' + sayName(Genre.random().name) + '.</s>' +
-        '<s>Try asking what else I can play, or to play something random.</s>' +
-        '<s>You can also ask to play or list similar genres, or to follow a genre playlist on your Spotify account.</s>' +
+        sayName(Genre.random().name) + ', or ' + sayName(Genre.random().name) + '.</s> ' +
+        '<s>Try asking what else I can play, or to play something random.</s> ' +
+        '<s>You can also ask to play or list similar genres, or to follow a genre playlist on your Spotify account.</s> ' +
         '<s>What do you want to do?</s>',
       '<s>What do you want to do?</s>',
       'Some Things You Can Do',
