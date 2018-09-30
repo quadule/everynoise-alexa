@@ -25,7 +25,7 @@ function isLinked(handler) {
   if(handler.event.session.user.accessToken) {
     return true;
   } else {
-    handler.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
+    handler.emit(':tellWithLinkAccountCard', 'To get started, you must first link your Spotify account in the Alexa app.');
     return false;
   }
 }
@@ -33,7 +33,7 @@ function isLinked(handler) {
 function onAPIError(error) {
   console.log(error);
   if(error && error.statusCode == 403) {
-    this.emit(':tellWithLinkAccountCard', 'You must first link your Spotify account in the Alexa app.');
+    this.emit(':tellWithLinkAccountCard', 'Sorry, you must first link your Spotify account in the Alexa app.');
   } else {
     this.emit(':tell', 'Sorry, something went wrong.');
   }
@@ -55,7 +55,7 @@ let handlers = {
         '<s>You can also ask to play or list similar genres, or to follow a genre playlist on your Spotify account.</s> ' +
         '<s>What do you want to do?</s>',
       '<s>What do you want to do?</s>',
-      'Some Things You Can Do',
+      'Using Every Noise at Once',
       'Play music: "Play ' + Genre.random().name + '" or "Play a random genre" or "Play something similar"\n\n' +
         'Explore: "What can I play?" or "What else is like this?"\n\n' +
         'Save your discoveries on Spotify: "Follow this genre"'
@@ -69,9 +69,9 @@ let handlers = {
   },
   'ListGenresIntent': function() {
     let genreNames = new Array(8).fill(null).map(function() { return Genre.random().name; });
-    this.emit(':tell',
+    this.emit(':tellWithCard',
       "Here are a few of the genres I can play. " + genreNames.map(sayName).join(". "),
-      "Some Example Genres",
+      "Some example genres",
       genreNames.join(", ")
     );
   },
@@ -80,7 +80,11 @@ let handlers = {
 
     const genre = Genre.random();
     this.attributes.lastGenreName = genre.name;
-    this.emit(':tell', "Ok, here's some " + sayName(genre.name) + ".");
+    this.emit(':tellWithCard',
+      "Ok, here's some " + sayName(genre.name) + ".",
+      "Playing a random genre",
+      "Here's some " + genre.name + " on Spotify."
+    );
 
     const player = new Player(this);
     return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
@@ -95,13 +99,22 @@ let handlers = {
 
     if(genre) {
       this.attributes.lastGenreName = genre.name;
-      this.emit(':tell', "Ok, here's some " + sayName(genre.name) + ".");
+      this.emit(':tellWithCard',
+        "Ok, here's some " + sayName(genre.name) + ".",
+        "Playing genre " + genre.name,
+        "Here's some " + genre.name + " on Spotify."
+      );
 
       const player = new Player(this);
       return player.playPlaylist(genre.uri).then(null, onAPIError.bind(this));
     } else {
       if(spokenGenreName) {
-        this.emit(':tell', "Sorry, I couldn't find a genre for " + spokenGenreName + ".");
+        const message = "Sorry, I couldn't find a genre for " + spokenGenreName + ".";
+        this.emit(':tellWithCard',
+          message,
+          "Couldn't find genre " + genre.name,
+          message
+        );
       } else {
         this.emit('Unhandled');
       }
@@ -119,9 +132,10 @@ let handlers = {
     return player.getCurrentGenre().then(function(currentGenre) {
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const similarNames = currentGenre.similar.map(function(g) { return g.name; });
-      this.emit(':tell',
-        "Here are some genres similar to " + sayName(currentGenre.name) + ". " +
-          similarNames.map(sayName).join(". ")
+      this.emit(':tellWithCard',
+        "Here are some genres similar to " + sayName(currentGenre.name) + ". " + similarNames.map(sayName).join(". "),
+        "Genres similar to " + currentGenre.name,
+        similarNames.join(", ")
       );
     }.bind(this)).then(null, function(error) {
       if(typeof error == "string" && error.indexOf("no genre") == 0) {
@@ -138,7 +152,11 @@ let handlers = {
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
       this.attributes.lastGenreName = newGenre.name;
-      this.emit(':tell', "Ok, here's some " + sayName(newGenre.name) + ".");
+      this.emit(':tellWithCard',
+        "Ok, here's some " + sayName(newGenre.name) + ".",
+        "Play something similar to " + currentGenre.name,
+        "Here's some " + newGenre.name + " on Spotify."
+      );
       return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
       if(typeof error == "string" && error.indexOf("no genre") == 0) {
