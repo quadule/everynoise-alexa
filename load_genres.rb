@@ -47,7 +47,7 @@ genres = rows.map do |row|
   Genre.new(name, uri)
 end.sort_by(&:name)
 
-if genres.size < 1500
+if genres.size < 2000
   raise "Too few genres found (#{genres.size} for #{rows.size} rows)"
 end
 

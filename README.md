@@ -5,7 +5,7 @@ Available now in the Alexa Skills store: <br>
 
 ## Usage
 
-Play over 1500 genres on Spotify by name or at random. Explore similar genres and music from around the world. Follow playlists for genres you discover so you can play them from Spotify anywhere.
+Play over 2,000 musical genres and styles on Spotify by name or at random. Explore similar genres and music from around the world. Follow playlists for genres you discover so you can play them from Spotify anywhere.
 
 This skill requires a Spotify Premium account to play music and follow playlists. Genre information comes from [everynoise.com](http://everynoise.com) by Glenn McDonald.
 
@@ -26,6 +26,6 @@ By default, this skill always will play music on the device you last used with S
 
 ## Development
 
-Run `ruby load_genres.rb` to rebuild model.json with the latest genres from everynoise.com.
+Run `ruby load_genres.rb` to rebuild `models/en-US.json` with the latest genres from everynoise.com.
 
-Run `npm install` then `npm run export` to generate a .zip file to upload to AWS Lambda.
+After configuring ask-cli, run `ask deploy` to deploy the lambda and skill together.
