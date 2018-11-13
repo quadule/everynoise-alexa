@@ -39,6 +39,36 @@ function onAPIError(error) {
   }
 }
 
+function randomAffirmativePhrase() {
+  const phrases = [
+    '<say-as interpret-as="interjection">All righty!</say-as> ',
+    '<say-as interpret-as="interjection">As you wish!</say-as> ',
+    '<say-as interpret-as="interjection">Dun dun dun!</say-as> ',
+    '<say-as interpret-as="interjection">Giddy up!</say-as> ',
+    '<say-as interpret-as="interjection">Gotcha!</say-as> ',
+    '<say-as interpret-as="interjection">Okey dokey!</say-as> ',
+    '<say-as interpret-as="interjection">Roger!</say-as> ',
+    '<say-as interpret-as="interjection">Voila!</say-as> ',
+    '<say-as interpret-as="interjection">You bet!</say-as> ',
+    'Coming right up! ',
+    'Here you go! ',
+    'Ok! ',
+    'You got it! '
+  ];
+  return phrases[Math.floor(Math.random() * phrases.length)];
+}
+
+function randomIntroPhrase() {
+  const phrases = [
+    "Here's some ",
+    "Here's ",
+    "Playing ",
+    "This is ",
+    "You're listening to "
+  ];
+  return phrases[Math.floor(Math.random() * phrases.length)];
+}
+
 let handlers = {
   'LaunchRequest': function() {
     if(!isLinked(this)) return;
@@ -80,10 +110,12 @@ let handlers = {
 
     const genre = Genre.random();
     this.attributes.lastGenreName = genre.name;
+    const affirmative = randomAffirmativePhrase();
+    const intro = randomIntroPhrase();
     this.emit(':tellWithCard',
-      "Ok, here's some " + sayName(genre.name) + ".",
+      affirmative + intro + sayName(genre.name) + ".",
       "Playing a random genre",
-      "Here's some " + genre.name + " on Spotify."
+      intro + genre.name + " on Spotify."
     );
 
     const player = new Player(this);
@@ -99,10 +131,12 @@ let handlers = {
 
     if(genre) {
       this.attributes.lastGenreName = genre.name;
+      const affirmative = randomAffirmativePhrase();
+      const intro = randomIntroPhrase();
       this.emit(':tellWithCard',
-        "Ok, here's some " + sayName(genre.name) + ".",
+        affirmative + intro + sayName(genre.name) + ".",
         "Playing genre " + genre.name,
-        "Here's some " + genre.name + " on Spotify."
+        intro + genre.name + " on Spotify."
       );
 
       const player = new Player(this);
@@ -152,10 +186,12 @@ let handlers = {
       if(currentGenre.similar.length == 0) throw "no similar genres found";
       const newGenre = currentGenre.similar[Math.floor(Math.random() * currentGenre.similar.length)];
       this.attributes.lastGenreName = newGenre.name;
+      const affirmative = randomAffirmativePhrase();
+      const intro = randomIntroPhrase();
       this.emit(':tellWithCard',
-        "Ok, here's some " + sayName(newGenre.name) + ".",
+        affirmative + intro + sayName(newGenre.name) + ".",
         "Play something similar to " + currentGenre.name,
-        "Here's some " + newGenre.name + " on Spotify."
+        intro + newGenre.name + " on Spotify."
       );
       return player.playPlaylist(newGenre.uri);
     }.bind(this)).then(null, function(error) {
