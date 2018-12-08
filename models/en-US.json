@@ -345,6 +345,15 @@
               }
             },
             {
+              "id": "genre_adelaide_indie",
+              "name": {
+                "value": "adelaide indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_adoracao",
               "name": {
                 "value": "adoracao",
@@ -357,6 +366,15 @@
               "id": "genre_adult_standards",
               "name": {
                 "value": "adult standards",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_adventista",
+              "name": {
+                "value": "adventista",
                 "synonyms": [
 
                 ]
@@ -521,15 +539,6 @@
                 "value": "alt-idol",
                 "synonyms": [
                   "alt idol"
-                ]
-              }
-            },
-            {
-              "id": "genre_alt_indie_rock",
-              "name": {
-                "value": "alt-indie rock",
-                "synonyms": [
-                  "alt indie rock"
                 ]
               }
             },
@@ -822,6 +831,15 @@
               }
             },
             {
+              "id": "genre_anime_rock",
+              "name": {
+                "value": "anime rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_anime_score",
               "name": {
                 "value": "anime score",
@@ -897,6 +915,15 @@
               "id": "genre_arab_folk",
               "name": {
                 "value": "arab folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_arab_groove",
+              "name": {
+                "value": "arab groove",
                 "synonyms": [
 
                 ]
@@ -1011,6 +1038,15 @@
               }
             },
             {
+              "id": "genre_argentine_telepop",
+              "name": {
+                "value": "argentine telepop",
+                "synonyms": [
+                  "argentine tele pop"
+                ]
+              }
+            },
+            {
               "id": "genre_armenian_folk",
               "name": {
                 "value": "armenian folk",
@@ -1065,6 +1101,15 @@
               }
             },
             {
+              "id": "genre_atl_hip_hop",
+              "name": {
+                "value": "atl hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_atmosphere",
               "name": {
                 "value": "atmosphere",
@@ -1101,6 +1146,15 @@
               }
             },
             {
+              "id": "genre_aussie_emo",
+              "name": {
+                "value": "aussie emo",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_aussietronica",
               "name": {
                 "value": "aussietronica",
@@ -1119,9 +1173,27 @@
               }
             },
             {
+              "id": "genre_australian_alternative_pop",
+              "name": {
+                "value": "australian alternative pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_australian_alternative_rock",
               "name": {
                 "value": "australian alternative rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_americana",
+              "name": {
+                "value": "australian americana",
                 "synonyms": [
 
                 ]
@@ -1182,6 +1254,15 @@
               }
             },
             {
+              "id": "genre_australian_electropop",
+              "name": {
+                "value": "australian electropop",
+                "synonyms": [
+                  "australian electro pop"
+                ]
+              }
+            },
+            {
               "id": "genre_australian_garage_punk",
               "name": {
                 "value": "australian garage punk",
@@ -1218,6 +1299,15 @@
               }
             },
             {
+              "id": "genre_australian_indie_rock",
+              "name": {
+                "value": "australian indie rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_australian_indigenous",
               "name": {
                 "value": "australian indigenous",
@@ -1236,6 +1326,15 @@
               }
             },
             {
+              "id": "genre_australian_metal",
+              "name": {
+                "value": "australian metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_australian_pop",
               "name": {
                 "value": "australian pop",
@@ -1245,9 +1344,82 @@
               }
             },
             {
+              "id": "genre_australian_post_hardcore",
+              "name": {
+                "value": "australian post-hardcore",
+                "synonyms": [
+                  "australian post hardcore",
+                  "australian post hard core"
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_post_rock",
+              "name": {
+                "value": "australian post-rock",
+                "synonyms": [
+                  "australian post rock"
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_psych",
+              "name": {
+                "value": "australian psych",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_r_b",
+              "name": {
+                "value": "australian r&b",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_reggae_fusion",
+              "name": {
+                "value": "australian reggae fusion",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_australian_rock",
               "name": {
                 "value": "australian rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_singer_songwriter",
+              "name": {
+                "value": "australian singer-songwriter",
+                "synonyms": [
+                  "australian singer songwriter"
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_ska",
+              "name": {
+                "value": "australian ska",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_australian_underground_hip_hop",
+              "name": {
+                "value": "australian underground hip hop",
                 "synonyms": [
 
                 ]
@@ -1392,6 +1564,15 @@
               "id": "genre_bagpipe",
               "name": {
                 "value": "bagpipe",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_bahai",
+              "name": {
+                "value": "bahai",
                 "synonyms": [
 
                 ]
@@ -1641,6 +1822,15 @@
               }
             },
             {
+              "id": "genre_basshall",
+              "name": {
+                "value": "basshall",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_bassline",
               "name": {
                 "value": "bassline",
@@ -1695,6 +1885,33 @@
               }
             },
             {
+              "id": "genre_bboy",
+              "name": {
+                "value": "bboy",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_bc_underground_hip_hop",
+              "name": {
+                "value": "bc underground hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_beach_house",
+              "name": {
+                "value": "beach house",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_beach_music",
               "name": {
                 "value": "beach music",
@@ -1731,9 +1948,36 @@
               }
             },
             {
+              "id": "genre_bedroom_pop",
+              "name": {
+                "value": "bedroom pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_bedroom_soul",
+              "name": {
+                "value": "bedroom soul",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_belgian_contemporary_classical",
               "name": {
                 "value": "belgian contemporary classical",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_belgian_dance",
+              "name": {
+                "value": "belgian dance",
                 "synonyms": [
 
                 ]
@@ -1790,6 +2034,15 @@
                 "value": "belgian pop",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_belgian_post_rock",
+              "name": {
+                "value": "belgian post-rock",
+                "synonyms": [
+                  "belgian post rock"
                 ]
               }
             },
@@ -1974,6 +2227,15 @@
               }
             },
             {
+              "id": "genre_blues_band",
+              "name": {
+                "value": "blues band",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_blues_rock",
               "name": {
                 "value": "blues-rock",
@@ -2100,6 +2362,24 @@
               }
             },
             {
+              "id": "genre_boston_hip_hop",
+              "name": {
+                "value": "boston hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_boston_indie",
+              "name": {
+                "value": "boston indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_boston_punk",
               "name": {
                 "value": "boston punk",
@@ -2148,6 +2428,15 @@
               "id": "genre_boy_band",
               "name": {
                 "value": "boy band",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_boy_pop",
+              "name": {
+                "value": "boy pop",
                 "synonyms": [
 
                 ]
@@ -2433,6 +2722,15 @@
               }
             },
             {
+              "id": "genre_brega_funk",
+              "name": {
+                "value": "brega funk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_breton_folk",
               "name": {
                 "value": "breton folk",
@@ -2445,6 +2743,24 @@
               "id": "genre_brill_building_pop",
               "name": {
                 "value": "brill building pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_brisbane_indie",
+              "name": {
+                "value": "brisbane indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_bristol_indie",
+              "name": {
+                "value": "bristol indie",
                 "synonyms": [
 
                 ]
@@ -2499,6 +2815,15 @@
               "id": "genre_british_choir",
               "name": {
                 "value": "british choir",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_british_comedy",
+              "name": {
+                "value": "british comedy",
                 "synonyms": [
 
                 ]
@@ -2577,11 +2902,29 @@
               }
             },
             {
+              "id": "genre_british_math_rock",
+              "name": {
+                "value": "british math rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_british_modern_classical",
               "name": {
                 "value": "british modern classical",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_british_post_rock",
+              "name": {
+                "value": "british post-rock",
+                "synonyms": [
+                  "british post rock"
                 ]
               }
             },
@@ -2865,6 +3208,15 @@
               }
             },
             {
+              "id": "genre_canadian_contemporary_r_b",
+              "name": {
+                "value": "canadian contemporary r&b",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_canadian_country",
               "name": {
                 "value": "canadian country",
@@ -3054,6 +3406,15 @@
               }
             },
             {
+              "id": "genre_cape_town_indie",
+              "name": {
+                "value": "cape town indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_capoeira",
               "name": {
                 "value": "capoeira",
@@ -3093,6 +3454,15 @@
               "id": "genre_carnaval",
               "name": {
                 "value": "carnaval",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_carnaval_limburg",
+              "name": {
+                "value": "carnaval limburg",
                 "synonyms": [
 
                 ]
@@ -3729,6 +4099,15 @@
               }
             },
             {
+              "id": "genre_christian_a_cappella",
+              "name": {
+                "value": "christian a cappella",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_christian_alternative_rock",
               "name": {
                 "value": "christian alternative rock",
@@ -3864,6 +4243,15 @@
               }
             },
             {
+              "id": "genre_circuit",
+              "name": {
+                "value": "circuit",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_classic_afrobeat",
               "name": {
                 "value": "classic afrobeat",
@@ -3894,6 +4282,15 @@
               "id": "genre_classic_bollywood",
               "name": {
                 "value": "classic bollywood",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_classic_bulgarian_pop",
+              "name": {
+                "value": "classic bulgarian pop",
                 "synonyms": [
 
                 ]
@@ -4119,6 +4516,15 @@
               "id": "genre_classic_portuguese_pop",
               "name": {
                 "value": "classic portuguese pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_classic_praise",
+              "name": {
+                "value": "classic praise",
                 "synonyms": [
 
                 ]
@@ -4602,6 +5008,15 @@
               }
             },
             {
+              "id": "genre_comedienne",
+              "name": {
+                "value": "comedienne",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_comedy",
               "name": {
                 "value": "comedy",
@@ -4695,6 +5110,15 @@
               "id": "genre_contemporary_folk",
               "name": {
                 "value": "contemporary folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_contemporary_gospel",
+              "name": {
+                "value": "contemporary gospel",
                 "synonyms": [
 
                 ]
@@ -5178,6 +5602,15 @@
               }
             },
             {
+              "id": "genre_czsk_hip_hop",
+              "name": {
+                "value": "czsk hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_dallas_indie",
               "name": {
                 "value": "dallas indie",
@@ -5559,15 +5992,6 @@
               "id": "genre_deep_ambient",
               "name": {
                 "value": "deep ambient",
-                "synonyms": [
-
-                ]
-              }
-            },
-            {
-              "id": "genre_deep_australian_indie",
-              "name": {
-                "value": "deep australian indie",
                 "synonyms": [
 
                 ]
@@ -6181,15 +6605,6 @@
               "id": "genre_deep_northern_soul",
               "name": {
                 "value": "deep northern soul",
-                "synonyms": [
-
-                ]
-              }
-            },
-            {
-              "id": "genre_deep_nz_indie",
-              "name": {
-                "value": "deep nz indie",
                 "synonyms": [
 
                 ]
@@ -6988,6 +7403,24 @@
               }
             },
             {
+              "id": "genre_dunedin_indie",
+              "name": {
+                "value": "dunedin indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_dunedin_sound",
+              "name": {
+                "value": "dunedin sound",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_duranguense",
               "name": {
                 "value": "duranguense",
@@ -7000,6 +7433,15 @@
               "id": "genre_dutch_black_metal",
               "name": {
                 "value": "dutch black metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_dutch_cabaret",
+              "name": {
+                "value": "dutch cabaret",
                 "synonyms": [
 
                 ]
@@ -7099,6 +7541,15 @@
               "id": "genre_dutch_underground_hip_hop",
               "name": {
                 "value": "dutch underground hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_dweilorkest",
+              "name": {
+                "value": "dweilorkest",
                 "synonyms": [
 
                 ]
@@ -7492,6 +7943,15 @@
               }
             },
             {
+              "id": "genre_english_indie_rock",
+              "name": {
+                "value": "english indie rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_english_renaissance",
               "name": {
                 "value": "english renaissance",
@@ -7659,6 +8119,15 @@
                 "value": "ethnomusicology",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_euro_hi_nrg",
+              "name": {
+                "value": "euro hi-nrg",
+                "synonyms": [
+                  "euro hi nrg"
                 ]
               }
             },
@@ -7996,6 +8465,15 @@
               }
             },
             {
+              "id": "genre_finnish_worship",
+              "name": {
+                "value": "finnish worship",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_flamenco",
               "name": {
                 "value": "flamenco",
@@ -8296,6 +8774,15 @@
               "id": "genre_freestyle",
               "name": {
                 "value": "freestyle",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_fremantle_indie",
+              "name": {
+                "value": "fremantle indie",
                 "synonyms": [
 
                 ]
@@ -8653,6 +9140,15 @@
               }
             },
             {
+              "id": "genre_galway_indie",
+              "name": {
+                "value": "galway indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_gamecore",
               "name": {
                 "value": "gamecore",
@@ -8818,6 +9314,15 @@
               "id": "genre_german_contemporary_classical",
               "name": {
                 "value": "german contemporary classical",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_german_dark_minimal_techno",
+              "name": {
+                "value": "german dark minimal techno",
                 "synonyms": [
 
                 ]
@@ -10048,6 +10553,15 @@
               }
             },
             {
+              "id": "genre_hyperpop",
+              "name": {
+                "value": "hyperpop",
+                "synonyms": [
+                  "hyper pop"
+                ]
+              }
+            },
+            {
               "id": "genre_hyphy",
               "name": {
                 "value": "hyphy",
@@ -10219,6 +10733,24 @@
               }
             },
             {
+              "id": "genre_indie_cafe_pop",
+              "name": {
+                "value": "indie cafe pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_indie_catala",
+              "name": {
+                "value": "indie catala",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_indie_deutschrap",
               "name": {
                 "value": "indie deutschrap",
@@ -10294,6 +10826,15 @@
               "id": "genre_indie_jazz",
               "name": {
                 "value": "indie jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_indie_napoletano",
+              "name": {
+                "value": "indie napoletano",
                 "synonyms": [
 
                 ]
@@ -10489,6 +11030,15 @@
               }
             },
             {
+              "id": "genre_indonesian_pop_punk",
+              "name": {
+                "value": "indonesian pop punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_indonesian_punk",
               "name": {
                 "value": "indonesian punk",
@@ -10546,6 +11096,24 @@
               "id": "genre_industrial_rock",
               "name": {
                 "value": "industrial rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_instrumental_funk",
+              "name": {
+                "value": "instrumental funk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_instrumental_math_rock",
+              "name": {
+                "value": "instrumental math rock",
                 "synonyms": [
 
                 ]
@@ -10651,11 +11219,29 @@
               }
             },
             {
+              "id": "genre_irish_indie_rock",
+              "name": {
+                "value": "irish indie rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_irish_neo_traditional",
               "name": {
                 "value": "irish neo-traditional",
                 "synonyms": [
                   "irish neo traditional"
+                ]
+              }
+            },
+            {
+              "id": "genre_irish_pop",
+              "name": {
+                "value": "irish pop",
+                "synonyms": [
+
                 ]
               }
             },
@@ -10904,6 +11490,15 @@
               }
             },
             {
+              "id": "genre_italian_post_rock",
+              "name": {
+                "value": "italian post-rock",
+                "synonyms": [
+                  "italian post rock"
+                ]
+              }
+            },
+            {
               "id": "genre_italian_progressive_rock",
               "name": {
                 "value": "italian progressive rock",
@@ -10990,6 +11585,15 @@
                 "value": "italo house",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_italogaze",
+              "name": {
+                "value": "italogaze",
+                "synonyms": [
+                  "italo gaze"
                 ]
               }
             },
@@ -11161,6 +11765,15 @@
               "id": "genre_japanese_classical_performance",
               "name": {
                 "value": "japanese classical performance",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_japanese_death_metal",
+              "name": {
+                "value": "japanese death metal",
                 "synonyms": [
 
                 ]
@@ -11545,9 +12158,27 @@
               }
             },
             {
+              "id": "genre_jumptek",
+              "name": {
+                "value": "jumptek",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_jungle",
               "name": {
                 "value": "jungle",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_junior_eurovision",
+              "name": {
+                "value": "junior eurovision",
                 "synonyms": [
 
                 ]
@@ -11608,6 +12239,15 @@
               }
             },
             {
+              "id": "genre_karadeniz_halk_muzigi",
+              "name": {
+                "value": "karadeniz halk muzigi",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_karaoke",
               "name": {
                 "value": "karaoke",
@@ -11620,6 +12260,24 @@
               "id": "genre_karneval",
               "name": {
                 "value": "karneval",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_kaseko",
+              "name": {
+                "value": "kaseko",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_kavkaz",
+              "name": {
+                "value": "kavkaz",
                 "synonyms": [
 
                 ]
@@ -11791,6 +12449,15 @@
               "id": "genre_korean_contemporary_classical",
               "name": {
                 "value": "korean contemporary classical",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_korean_metal",
+              "name": {
+                "value": "korean metal",
                 "synonyms": [
 
                 ]
@@ -12112,6 +12779,15 @@
               }
             },
             {
+              "id": "genre_lebanese_pop",
+              "name": {
+                "value": "lebanese pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_leeds_indie",
               "name": {
                 "value": "leeds indie",
@@ -12133,6 +12809,15 @@
               "id": "genre_levenslied",
               "name": {
                 "value": "levenslied",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_lezginka",
+              "name": {
+                "value": "lezginka",
                 "synonyms": [
 
                 ]
@@ -12187,6 +12872,15 @@
               "id": "genre_lilith",
               "name": {
                 "value": "lilith",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_limerick_indie",
+              "name": {
+                "value": "limerick indie",
                 "synonyms": [
 
                 ]
@@ -12340,6 +13034,15 @@
               "id": "genre_luk_thung",
               "name": {
                 "value": "luk thung",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_lund_indie",
+              "name": {
+                "value": "lund indie",
                 "synonyms": [
 
                 ]
@@ -12511,6 +13214,15 @@
               "id": "genre_mambo",
               "name": {
                 "value": "mambo",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_manchester_indie",
+              "name": {
+                "value": "manchester indie",
                 "synonyms": [
 
                 ]
@@ -12769,6 +13481,15 @@
               }
             },
             {
+              "id": "genre_melbourne_indie",
+              "name": {
+                "value": "melbourne indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_mellow_gold",
               "name": {
                 "value": "mellow gold",
@@ -12877,6 +13598,15 @@
               }
             },
             {
+              "id": "genre_men_s_choir",
+              "name": {
+                "value": "men's choir",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_merengue",
               "name": {
                 "value": "merengue",
@@ -12898,6 +13628,15 @@
               "id": "genre_merseybeat",
               "name": {
                 "value": "merseybeat",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_messianic_praise",
+              "name": {
+                "value": "messianic praise",
                 "synonyms": [
 
                 ]
@@ -13075,6 +13814,15 @@
               }
             },
             {
+              "id": "genre_miami_hip_hop",
+              "name": {
+                "value": "miami hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_michigan_indie",
               "name": {
                 "value": "michigan indie",
@@ -13168,6 +13916,15 @@
               "id": "genre_minimal_wave",
               "name": {
                 "value": "minimal wave",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_minneapolis_indie",
+              "name": {
+                "value": "minneapolis indie",
                 "synonyms": [
 
                 ]
@@ -13318,6 +14075,15 @@
               }
             },
             {
+              "id": "genre_mongolian_pop",
+              "name": {
+                "value": "mongolian pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_moombahton",
               "name": {
                 "value": "moombahton",
@@ -13399,6 +14165,15 @@
               }
             },
             {
+              "id": "genre_musica_de_pernambuco",
+              "name": {
+                "value": "musica de pernambuco",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_musica_folk_asturiana",
               "name": {
                 "value": "musica folk asturiana",
@@ -13462,6 +14237,15 @@
               }
             },
             {
+              "id": "genre_musikkorps",
+              "name": {
+                "value": "musikkorps",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_musique_acadienne",
               "name": {
                 "value": "musique acadienne",
@@ -13498,9 +14282,27 @@
               }
             },
             {
+              "id": "genre_muzica_copii",
+              "name": {
+                "value": "muzica copii",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_muzica_crestina",
               "name": {
                 "value": "muzica crestina",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_muzica_populara",
+              "name": {
+                "value": "muzica populara",
                 "synonyms": [
 
                 ]
@@ -13720,6 +14522,15 @@
                 "synonyms": [
                   "neo synthpop",
                   "neo synth pop"
+                ]
+              }
+            },
+            {
+              "id": "genre_neo_trad_doom_metal",
+              "name": {
+                "value": "neo-trad doom metal",
+                "synonyms": [
+                  "neo trad doom metal"
                 ]
               }
             },
@@ -14042,6 +14853,15 @@
               "id": "genre_nigerian_hip_hop",
               "name": {
                 "value": "nigerian hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nightrun",
+              "name": {
+                "value": "nightrun",
                 "synonyms": [
 
                 ]
@@ -14472,11 +15292,38 @@
               }
             },
             {
+              "id": "genre_nz_pop",
+              "name": {
+                "value": "nz pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nz_punk",
+              "name": {
+                "value": "nz punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_nz_reggae",
               "name": {
                 "value": "nz reggae",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_nz_singer_songwriter",
+              "name": {
+                "value": "nz singer-songwriter",
+                "synonyms": [
+                  "nz singer songwriter"
                 ]
               }
             },
@@ -14706,6 +15553,15 @@
               }
             },
             {
+              "id": "genre_orquestas_de_galicia",
+              "name": {
+                "value": "orquestas de galicia",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_oshare_kei",
               "name": {
                 "value": "oshare kei",
@@ -14823,6 +15679,15 @@
               }
             },
             {
+              "id": "genre_palestinian_pop",
+              "name": {
+                "value": "palestinian pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_panamanian_pop",
               "name": {
                 "value": "panamanian pop",
@@ -14844,6 +15709,15 @@
               "id": "genre_papuri",
               "name": {
                 "value": "papuri",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_paracana",
+              "name": {
+                "value": "paracana",
                 "synonyms": [
 
                 ]
@@ -14880,6 +15754,15 @@
               "id": "genre_permanent_wave",
               "name": {
                 "value": "permanent wave",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_pernambuco_alternative",
+              "name": {
+                "value": "pernambuco alternative",
                 "synonyms": [
 
                 ]
@@ -14994,6 +15877,24 @@
               }
             },
             {
+              "id": "genre_phoenix_indie",
+              "name": {
+                "value": "phoenix indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_pianissimo",
+              "name": {
+                "value": "pianissimo",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_piano_blues",
               "name": {
                 "value": "piano blues",
@@ -15051,6 +15952,15 @@
               "id": "genre_pinoy_metal",
               "name": {
                 "value": "pinoy metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_pinoy_praise",
+              "name": {
+                "value": "pinoy praise",
                 "synonyms": [
 
                 ]
@@ -15348,6 +16258,15 @@
               "id": "genre_pop",
               "name": {
                 "value": "pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_pop_catracho",
+              "name": {
+                "value": "pop catracho",
                 "synonyms": [
 
                 ]
@@ -15707,6 +16626,15 @@
               }
             },
             {
+              "id": "genre_powwow",
+              "name": {
+                "value": "powwow",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_praise",
               "name": {
                 "value": "praise",
@@ -15755,6 +16683,15 @@
               "id": "genre_progressive_bluegrass",
               "name": {
                 "value": "progressive bluegrass",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_progressive_breaks",
+              "name": {
+                "value": "progressive breaks",
                 "synonyms": [
 
                 ]
@@ -15954,6 +16891,15 @@
               "id": "genre_puerto_rican_folk",
               "name": {
                 "value": "puerto rican folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_puerto_rican_indie",
+              "name": {
+                "value": "puerto rican indie",
                 "synonyms": [
 
                 ]
@@ -16311,6 +17257,15 @@
               }
             },
             {
+              "id": "genre_reggae_mexicano",
+              "name": {
+                "value": "reggae mexicano",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_reggae_rock",
               "name": {
                 "value": "reggae rock",
@@ -16419,6 +17374,15 @@
               }
             },
             {
+              "id": "genre_rhythm_game",
+              "name": {
+                "value": "rhythm game",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_riddim",
               "name": {
                 "value": "riddim",
@@ -16476,6 +17440,15 @@
               "id": "genre_rock_catala",
               "name": {
                 "value": "rock catala",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_rock_catracho",
+              "name": {
+                "value": "rock catracho",
                 "synonyms": [
 
                 ]
@@ -16566,6 +17539,15 @@
               "id": "genre_rock_steady",
               "name": {
                 "value": "rock steady",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_rock_urbano_mexicano",
+              "name": {
+                "value": "rock urbano mexicano",
                 "synonyms": [
 
                 ]
@@ -16887,6 +17869,15 @@
               }
             },
             {
+              "id": "genre_ruta_destroy",
+              "name": {
+                "value": "ruta destroy",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_rva_indie",
               "name": {
                 "value": "rva indie",
@@ -16928,6 +17919,15 @@
                 "value": "samba-enredo",
                 "synonyms": [
                   "samba enredo"
+                ]
+              }
+            },
+            {
+              "id": "genre_sambass",
+              "name": {
+                "value": "sambass",
+                "synonyms": [
+
                 ]
               }
             },
@@ -17049,6 +18049,15 @@
               }
             },
             {
+              "id": "genre_scottish_indie_rock",
+              "name": {
+                "value": "scottish indie rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_scottish_jazz",
               "name": {
                 "value": "scottish jazz",
@@ -17160,6 +18169,15 @@
               "id": "genre_senegalese_hip_hop",
               "name": {
                 "value": "senegalese hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_serbian_alternative_rock",
+              "name": {
+                "value": "serbian alternative rock",
                 "synonyms": [
 
                 ]
@@ -17571,6 +18589,15 @@
               }
             },
             {
+              "id": "genre_slovak_rock",
+              "name": {
+                "value": "slovak rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_slovenian_rock",
               "name": {
                 "value": "slovenian rock",
@@ -17625,6 +18652,15 @@
               }
             },
             {
+              "id": "genre_smooth_soul",
+              "name": {
+                "value": "smooth soul",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_smooth_urban_r_b",
               "name": {
                 "value": "smooth urban r&b",
@@ -17664,6 +18700,15 @@
               "id": "genre_solipsynthm",
               "name": {
                 "value": "solipsynthm",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_son_cubano_clasico",
+              "name": {
+                "value": "son cubano clasico",
                 "synonyms": [
 
                 ]
@@ -17751,9 +18796,27 @@
               }
             },
             {
+              "id": "genre_south_african_alternative",
+              "name": {
+                "value": "south african alternative",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_south_african_choral",
               "name": {
                 "value": "south african choral",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_south_african_electronic",
+              "name": {
+                "value": "south african electronic",
                 "synonyms": [
 
                 ]
@@ -17801,6 +18864,33 @@
                 "value": "south african pop",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_south_african_punk",
+              "name": {
+                "value": "south african punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_south_african_rock",
+              "name": {
+                "value": "south african rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_southeast_asian_post_rock",
+              "name": {
+                "value": "southeast asian post-rock",
+                "synonyms": [
+                  "southeast asian post rock"
                 ]
               }
             },
@@ -17922,6 +19012,15 @@
               }
             },
             {
+              "id": "genre_spanish_electropop",
+              "name": {
+                "value": "spanish electropop",
+                "synonyms": [
+                  "spanish electro pop"
+                ]
+              }
+            },
+            {
               "id": "genre_spanish_folk",
               "name": {
                 "value": "spanish folk",
@@ -18015,6 +19114,15 @@
               "id": "genre_spanish_prog",
               "name": {
                 "value": "spanish prog",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_spanish_psychedelic_rock",
+              "name": {
+                "value": "spanish psychedelic rock",
                 "synonyms": [
 
                 ]
@@ -18132,6 +19240,15 @@
               "id": "genre_stl_indie",
               "name": {
                 "value": "stl indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_stockholm_indie",
+              "name": {
+                "value": "stockholm indie",
                 "synonyms": [
 
                 ]
@@ -18372,6 +19489,15 @@
               }
             },
             {
+              "id": "genre_swedish_americana",
+              "name": {
+                "value": "swedish americana",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_swedish_black_metal",
               "name": {
                 "value": "swedish black metal",
@@ -18402,6 +19528,15 @@
               "id": "genre_swedish_death_metal",
               "name": {
                 "value": "swedish death metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_swedish_electronic",
+              "name": {
+                "value": "swedish electronic",
                 "synonyms": [
 
                 ]
@@ -18534,6 +19669,15 @@
               }
             },
             {
+              "id": "genre_swedish_post_punk",
+              "name": {
+                "value": "swedish post-punk",
+                "synonyms": [
+                  "swedish post punk"
+                ]
+              }
+            },
+            {
               "id": "genre_swedish_prog",
               "name": {
                 "value": "swedish prog",
@@ -18561,9 +19705,27 @@
               }
             },
             {
+              "id": "genre_swedish_singer_songwriter",
+              "name": {
+                "value": "swedish singer-songwriter",
+                "synonyms": [
+                  "swedish singer songwriter"
+                ]
+              }
+            },
+            {
               "id": "genre_swedish_soul",
               "name": {
                 "value": "swedish soul",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_swedish_synth",
+              "name": {
+                "value": "swedish synth",
                 "synonyms": [
 
                 ]
@@ -18615,6 +19777,15 @@
               }
             },
             {
+              "id": "genre_swiss_indie",
+              "name": {
+                "value": "swiss indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_swiss_metal",
               "name": {
                 "value": "swiss metal",
@@ -18627,6 +19798,15 @@
               "id": "genre_swiss_rock",
               "name": {
                 "value": "swiss rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_sydney_indie",
+              "name": {
+                "value": "sydney indie",
                 "synonyms": [
 
                 ]
@@ -18674,6 +19854,15 @@
                 "value": "synthpop",
                 "synonyms": [
                   "synth pop"
+                ]
+              }
+            },
+            {
+              "id": "genre_syrian_pop",
+              "name": {
+                "value": "syrian pop",
+                "synonyms": [
+
                 ]
               }
             },
@@ -18744,6 +19933,15 @@
               "id": "genre_tarantella",
               "name": {
                 "value": "tarantella",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_tassie_indie",
+              "name": {
+                "value": "tassie indie",
                 "synonyms": [
 
                 ]
@@ -19272,6 +20470,15 @@
               }
             },
             {
+              "id": "genre_traprun",
+              "name": {
+                "value": "traprun",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_trash_rock",
               "name": {
                 "value": "trash rock",
@@ -19605,6 +20812,15 @@
               }
             },
             {
+              "id": "genre_uk_alternative_hip_hop",
+              "name": {
+                "value": "uk alternative hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_uk_americana",
               "name": {
                 "value": "uk americana",
@@ -19743,6 +20959,15 @@
               "id": "genre_ukulele",
               "name": {
                 "value": "ukulele",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_umea_indie",
+              "name": {
+                "value": "umea indie",
                 "synonyms": [
 
                 ]
@@ -20433,6 +21658,15 @@
               }
             },
             {
+              "id": "genre_wellington_indie",
+              "name": {
+                "value": "wellington indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_welsh_choir",
               "name": {
                 "value": "welsh choir",
@@ -20463,6 +21697,15 @@
               "id": "genre_west_african_jazz",
               "name": {
                 "value": "west african jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_west_australian_hip_hop",
+              "name": {
+                "value": "west australian hip hop",
                 "synonyms": [
 
                 ]
@@ -20517,6 +21760,15 @@
               "id": "genre_witch_house",
               "name": {
                 "value": "witch house",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_women_s_choir",
+              "name": {
+                "value": "women's choir",
                 "synonyms": [
 
                 ]
