@@ -10,16 +10,31 @@ function Player(handler) {
   this.deviceId = handler.attributes.spotifyDeviceMap && handler.attributes.spotifyDeviceMap[handler.event.context.System.device.deviceId];
 }
 
+function playlistIdFromUri(uri) {
+  const parts = uri.split(':');
+  return parts[parts.length - 1];
+}
+
 Player.prototype.playPlaylist = function(uri) {
   const options = { context_uri: uri }
   if(this.deviceId) {
     options.device_id = this.deviceId;
-    return this.spotify.startMyPlayback(options).then(function() {
+    return this.spotify.play(options).then(function() {
       setTimeout(this.checkCurrentDeviceAndTransfer.bind(this), 2000);
     }.bind(this));
   } else {
-    return this.spotify.startMyPlayback(options);
+    return this.spotify.play(options);
   }
+};
+
+Player.prototype.followPlaylist = function(uri) {
+  const id = playlistIdFromUri(uri);
+  return this.spotify.followPlaylist(id, { public: false });
+};
+
+Player.prototype.unfollowPlaylist = function(uri) {
+  const id = playlistIdFromUri(uri);
+  return this.spotify.unfollowPlaylist(id);
 };
 
 Player.prototype.getCurrentDevice = function() {
@@ -40,9 +55,8 @@ Player.prototype.getCurrentGenre = function() {
   return this.spotify.getMyCurrentPlaybackState().then(function(data) {
     const genre = data.body && data.body.context && Genre.byUri[data.body.context.uri];
     if(genre) {
-      const uriParts = genre.uri.split(':');
-      const user = uriParts[2], id = uriParts[4];
-      return this.spotify.getPlaylist(user, id, { fields: "description" }).then(function(data) {
+      const id = playlistIdFromUri(genre.uri);
+      return this.spotify.getPlaylist(id, { fields: "description" }).then(function(data) {
         genre.similar = Genre.similarFromDescription(data.body.description);
         return genre;
       });

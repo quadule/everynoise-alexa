@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "alexa-sdk": "^1.0.10",
-    "spotify-web-api-node": "git+https://github.com/ojread/spotify-web-api-node.git#3f0018fed46079bd600cdce7e2b6485a41c0afc7"
+    "spotify-web-api-node": "^4.0.0"
   },
   "devDependencies": {
     "dotenv": "^4.0.0"

@@ -204,10 +204,8 @@ let handlers = {
     const player = new Player(this);
     return player.spotify.getMyCurrentPlaybackState().then(function(data) {
       const uri = data.body && data.body.context && data.body.context.uri;
-      if(uri && uri.indexOf("spotify:user:") == 0) {
-        const uriParts = uri.split(':');
-        const user = uriParts[2], id = uriParts[4];
-        return player.spotify.followPlaylist(user, id, { public: false }).then(function() {
+      if(uri && uri.indexOf(":playlist:") > 0) {
+        return player.followPlaylist(uri).then(function() {
           this.emit(':tell', "Ok, you now follow this playlist.");
         }.bind(this));
       } else {
@@ -219,10 +217,8 @@ let handlers = {
     const player = new Player(this);
     return player.spotify.getMyCurrentPlaybackState().then(function(data) {
       const uri = data.body && data.body.context && data.body.context.uri;
-      if(uri && uri.indexOf("spotify:user:") == 0) {
-        const uriParts = uri.split(':');
-        const user = uriParts[2], id = uriParts[4];
-        return player.spotify.unfollowPlaylist(user, id).then(function() {
+      if(uri && uri.indexOf(":playlist:") > 0) {
+        return player.unfollowPlaylist(uri).then(function() {
           this.emit(':tell', "Ok, you no longer follow this playlist.");
         }.bind(this));
       } else {
