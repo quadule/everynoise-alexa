@@ -43,12 +43,10 @@ function randomAffirmativePhrase() {
   const phrases = [
     '<say-as interpret-as="interjection">All righty!</say-as> ',
     '<say-as interpret-as="interjection">As you wish!</say-as> ',
-    '<say-as interpret-as="interjection">Dun dun dun!</say-as> ',
-    '<say-as interpret-as="interjection">Giddy up!</say-as> ',
-    '<say-as interpret-as="interjection">Gotcha!</say-as> ',
+    '<say-as interpret-as="interjection">Bon appetit!</say-as> ',
+    '<say-as interpret-as="interjection">Hear hear!</say-as> ',
+    '<say-as interpret-as="interjection">Righto!</say-as> ',
     '<say-as interpret-as="interjection">Okey dokey!</say-as> ',
-    '<say-as interpret-as="interjection">Roger!</say-as> ',
-    '<say-as interpret-as="interjection">Voila!</say-as> ',
     '<say-as interpret-as="interjection">You bet!</say-as> ',
     'Coming right up! ',
     'Here you go! ',
@@ -63,8 +61,7 @@ function randomIntroPhrase() {
     "Here's some ",
     "Here's ",
     "Playing ",
-    "This is ",
-    "You're listening to "
+    "This is "
   ];
   return phrases[Math.floor(Math.random() * phrases.length)];
 }
