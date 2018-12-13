@@ -1110,6 +1110,24 @@
               }
             },
             {
+              "id": "genre_atl_trap",
+              "name": {
+                "value": "atl trap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_atlanta_indie",
+              "name": {
+                "value": "atlanta indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_atmosphere",
               "name": {
                 "value": "atmosphere",
@@ -1789,6 +1807,15 @@
               "id": "genre_basque_rock",
               "name": {
                 "value": "basque rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_bass_house",
+              "name": {
+                "value": "bass house",
                 "synonyms": [
 
                 ]
@@ -3226,6 +3253,24 @@
               }
             },
             {
+              "id": "genre_canadian_electropop",
+              "name": {
+                "value": "canadian electropop",
+                "synonyms": [
+                  "canadian electro pop"
+                ]
+              }
+            },
+            {
+              "id": "genre_canadian_experimental",
+              "name": {
+                "value": "canadian experimental",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_canadian_folk",
               "name": {
                 "value": "canadian folk",
@@ -3298,6 +3343,15 @@
               }
             },
             {
+              "id": "genre_canadian_post_rock",
+              "name": {
+                "value": "canadian post-rock",
+                "synonyms": [
+                  "canadian post rock"
+                ]
+              }
+            },
+            {
               "id": "genre_canadian_punk",
               "name": {
                 "value": "canadian punk",
@@ -3319,6 +3373,15 @@
               "id": "genre_canadian_soundtrack",
               "name": {
                 "value": "canadian soundtrack",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_canberra_indie",
+              "name": {
+                "value": "canberra indie",
                 "synonyms": [
 
                 ]
@@ -3454,6 +3517,15 @@
               "id": "genre_carnaval",
               "name": {
                 "value": "carnaval",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_carnaval_cadiz",
+              "name": {
+                "value": "carnaval cadiz",
                 "synonyms": [
 
                 ]
@@ -5170,6 +5242,15 @@
               }
             },
             {
+              "id": "genre_corrido",
+              "name": {
+                "value": "corrido",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_corrosion",
               "name": {
                 "value": "corrosion",
@@ -6866,15 +6947,6 @@
               "id": "genre_deep_thrash_metal",
               "name": {
                 "value": "deep thrash metal",
-                "synonyms": [
-
-                ]
-              }
-            },
-            {
-              "id": "genre_deep_trap",
-              "name": {
-                "value": "deep trap",
                 "synonyms": [
 
                 ]
@@ -8897,6 +8969,15 @@
               }
             },
             {
+              "id": "genre_french_post_rock",
+              "name": {
+                "value": "french post-rock",
+                "synonyms": [
+                  "french post rock"
+                ]
+              }
+            },
+            {
               "id": "genre_french_punk",
               "name": {
                 "value": "french punk",
@@ -9410,6 +9491,15 @@
               }
             },
             {
+              "id": "genre_german_post_rock",
+              "name": {
+                "value": "german post-rock",
+                "synonyms": [
+                  "german post rock"
+                ]
+              }
+            },
+            {
               "id": "genre_german_punk",
               "name": {
                 "value": "german punk",
@@ -9836,6 +9926,15 @@
               "id": "genre_grime",
               "name": {
                 "value": "grime",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_grimewave",
+              "name": {
+                "value": "grimewave",
                 "synonyms": [
 
                 ]
@@ -10529,6 +10628,15 @@
               "id": "genre_hungarian_pop",
               "name": {
                 "value": "hungarian pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_hungarian_punk",
+              "name": {
+                "value": "hungarian punk",
                 "synonyms": [
 
                 ]
@@ -12086,6 +12194,15 @@
               }
             },
             {
+              "id": "genre_jewish_pop",
+              "name": {
+                "value": "jewish pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_jig_and_reel",
               "name": {
                 "value": "jig and reel",
@@ -13097,6 +13214,15 @@
               "id": "genre_magyar",
               "name": {
                 "value": "magyar",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_magyar_alternative",
+              "name": {
+                "value": "magyar alternative",
                 "synonyms": [
 
                 ]
@@ -14967,6 +15093,15 @@
               }
             },
             {
+              "id": "genre_nordic_post_rock",
+              "name": {
+                "value": "nordic post-rock",
+                "synonyms": [
+                  "nordic post rock"
+                ]
+              }
+            },
+            {
               "id": "genre_nordic_soundtrack",
               "name": {
                 "value": "nordic soundtrack",
@@ -16179,6 +16314,15 @@
                 "value": "polish pop",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_polish_post_rock",
+              "name": {
+                "value": "polish post-rock",
+                "synonyms": [
+                  "polish post rock"
                 ]
               }
             },
@@ -17811,6 +17955,15 @@
                 "value": "russian pop",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_russian_post_rock",
+              "name": {
+                "value": "russian post-rock",
+                "synonyms": [
+                  "russian post rock"
                 ]
               }
             },
@@ -21229,6 +21382,15 @@
               "id": "genre_venezuelan_rock",
               "name": {
                 "value": "venezuelan rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_vermont_indie",
+              "name": {
+                "value": "vermont indie",
                 "synonyms": [
 
                 ]

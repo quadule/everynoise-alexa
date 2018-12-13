@@ -408,6 +408,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:2NvIqZZ9VkCBIxrEbrwoM4"
   },
   {
+    "name": "atl trap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3JqPLi8uM4ldiPdT3T6Oy8"
+  },
+  {
+    "name": "atlanta indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0TGIGqHl7lhNPKbbkjl4uJ"
+  },
+  {
     "name": "atmosphere",
     "uri": "spotify:user:thesoundsofspotify:playlist:486PMRN6a8m6RTO5ypNc9I"
   },
@@ -710,6 +718,10 @@ module.exports = [
   {
     "name": "basque rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:4fgHorklhTT5M7ANsHRtqr"
+  },
+  {
+    "name": "bass house",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5ITCoz5fDeGlbKyNmwKXoG"
   },
   {
     "name": "bass music",
@@ -1348,6 +1360,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:72nKBOJxfLUr3iuUUMn2nV"
   },
   {
+    "name": "canadian electropop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3PjSViYxygIzwIDO2dPkyW"
+  },
+  {
+    "name": "canadian experimental",
+    "uri": "spotify:user:thesoundsofspotify:playlist:46vWzFtJUqX1PZHoQswUuR"
+  },
+  {
     "name": "canadian folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:72tMdtrWPl1PXHYk3Y0gRf"
   },
@@ -1380,6 +1400,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4GdH9Ia0enMmulZlKOt9n4"
   },
   {
+    "name": "canadian post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1GqhHpCewFOcxp53xEHmJI"
+  },
+  {
     "name": "canadian punk",
     "uri": "spotify:user:thesoundsofspotify:playlist:5OcvKHhsBhDH7rSq7ZrhUK"
   },
@@ -1390,6 +1414,10 @@ module.exports = [
   {
     "name": "canadian soundtrack",
     "uri": "spotify:user:thesoundsofspotify:playlist:3k2Tj2Fu7Hu4tJcdFvpgUc"
+  },
+  {
+    "name": "canberra indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6NtolKQzqsuJxnDi5NgBkH"
   },
   {
     "name": "cancoes infantis",
@@ -1450,6 +1478,10 @@ module.exports = [
   {
     "name": "carnaval",
     "uri": "spotify:user:thesoundsofspotify:playlist:4b7GbUPm9ikbMF0G0finII"
+  },
+  {
+    "name": "carnaval cadiz",
+    "uri": "spotify:user:thesoundsofspotify:playlist:32A24OgW1EDnuhfs1jwCcL"
   },
   {
     "name": "carnaval limburg",
@@ -2212,6 +2244,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6B85dQKzhxzy3UJZ88L1fu"
   },
   {
+    "name": "corrido",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6UL8UnDWu9c95luN7S4wRs"
+  },
+  {
     "name": "corrosion",
     "uri": "spotify:user:thesoundsofspotify:playlist:5GgCJWob1ZqTc6JNtiQRBp"
   },
@@ -2966,10 +3002,6 @@ module.exports = [
   {
     "name": "deep thrash metal",
     "uri": "spotify:user:thesoundsofspotify:playlist:6Hsvc32wLYcMdIhjHozOBK"
-  },
-  {
-    "name": "deep trap",
-    "uri": "spotify:user:thesoundsofspotify:playlist:3JqPLi8uM4ldiPdT3T6Oy8"
   },
   {
     "name": "deep tropical house",
@@ -3868,6 +3900,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:03csHhetcFo29YHV4Z9A3g"
   },
   {
+    "name": "french post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:66GxbkUX9OZikMgn338pz6"
+  },
+  {
     "name": "french punk",
     "uri": "spotify:user:thesoundsofspotify:playlist:55zQD9JY29hERJC2iLmacZ"
   },
@@ -4096,6 +4132,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3if1Yx0WjzvX38BG9ENRD9"
   },
   {
+    "name": "german post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1zF0LnCMxw340KfckveaGM"
+  },
+  {
     "name": "german punk",
     "uri": "spotify:user:thesoundsofspotify:playlist:6oQUxF3hVHxvfsRyOC0IE9"
   },
@@ -4286,6 +4326,10 @@ module.exports = [
   {
     "name": "grime",
     "uri": "spotify:user:thesoundsofspotify:playlist:6tpwcBIh10DbSUksx3mRB5"
+  },
+  {
+    "name": "grimewave",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2nT30KPlGDd8vl9OIWTkJQ"
   },
   {
     "name": "grindcore",
@@ -4594,6 +4638,10 @@ module.exports = [
   {
     "name": "hungarian pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:1wwnwY4WnbBfQ77U3r4ccj"
+  },
+  {
+    "name": "hungarian punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0ILJS3YPBHOUQteHkaRVp6"
   },
   {
     "name": "hungarian rock",
@@ -5284,6 +5332,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6qUVKIR00CpN0YBSKCeYFS"
   },
   {
+    "name": "jewish pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6CwZnd7cgbJzStHKhbUbnX"
+  },
+  {
     "name": "jig and reel",
     "uri": "spotify:user:thesoundsofspotify:playlist:13xIyn7asOWIcgTwTFw293"
   },
@@ -5734,6 +5786,10 @@ module.exports = [
   {
     "name": "magyar",
     "uri": "spotify:user:thesoundsofspotify:playlist:76cCPFZYhAISV0seUjoBHy"
+  },
+  {
+    "name": "magyar alternative",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6KHw5aZWWsmRqpT7o290Mo"
   },
   {
     "name": "mahraganat",
@@ -6564,6 +6620,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0gdPJDXUHuVod0WX0DEZpx"
   },
   {
+    "name": "nordic post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3E6HUWCMr6NUqK6vOgQKod"
+  },
+  {
     "name": "nordic soundtrack",
     "uri": "spotify:user:thesoundsofspotify:playlist:5d9dEMb9Ezh1HmFfBdSbU9"
   },
@@ -7102,6 +7162,10 @@ module.exports = [
   {
     "name": "polish pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:40uOIq5lmbAApQTlleiVp0"
+  },
+  {
+    "name": "polish post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2zPhIrBINowwbkxiGkdrec"
   },
   {
     "name": "polish punk",
@@ -7826,6 +7890,10 @@ module.exports = [
   {
     "name": "russian pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:3C24egLjqcCmIMgfztqI2r"
+  },
+  {
+    "name": "russian post-rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:771SM1pTZn9UnCESjwHmmE"
   },
   {
     "name": "russian punk",
@@ -9346,6 +9414,10 @@ module.exports = [
   {
     "name": "venezuelan rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:5c8RLU4cABQz4E0AWFc22P"
+  },
+  {
+    "name": "vermont indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6Ejh1mnEuKQS1WiklGSRZd"
   },
   {
     "name": "victoria bc indie",
