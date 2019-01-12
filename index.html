@@ -27,8 +27,10 @@
   <h2>
     <a id="login" href="https://accounts.spotify.com/authorize">Log In to Spotify</a>
     <script type="text/javascript">
-      var button = document.getElementById("login");
-      button.href = button.href + window.location.search;
+      if(window.location.search) {
+        var button = document.getElementById("login");
+        button.href = button.href + window.location.search + "&show_dialog=true";
+      }
     </script>
   </h2>
 </body>
