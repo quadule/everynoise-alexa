@@ -88,6 +88,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:7kDOjv4aQuo4lFBDq9F6Rw"
   },
   {
+    "name": "afghan pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:562K7759REapjUDAJmEszO"
+  },
+  {
     "name": "african gospel",
     "uri": "spotify:user:thesoundsofspotify:playlist:1eXBFopkxdOaCJzPM6ljsL"
   },
@@ -106,6 +110,10 @@ module.exports = [
   {
     "name": "afro house",
     "uri": "spotify:user:thesoundsofspotify:playlist:6JBXZSjISi9ugN1Q0Ku9cN"
+  },
+  {
+    "name": "afro psych",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3gImCITqUaAL5OYjfUbgug"
   },
   {
     "name": "afrobeat",
@@ -246,6 +254,10 @@ module.exports = [
   {
     "name": "ambient psychill",
     "uri": "spotify:user:thesoundsofspotify:playlist:4Ai1OzIuu5d40Ce1UFl8IW"
+  },
+  {
+    "name": "ambient worship",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5W6bxdaey4mnoC1QVxg61t"
   },
   {
     "name": "american 21st century classical",
@@ -404,6 +416,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4C8m7u87Nck0PxnVJb0JjP"
   },
   {
+    "name": "armenian pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7C4YA1mw3XW1fWcVqRQIvc"
+  },
+  {
     "name": "arpa paraguaya",
     "uri": "spotify:user:thesoundsofspotify:playlist:18ZywYbrAISwG84Hubuj5y"
   },
@@ -414,6 +430,10 @@ module.exports = [
   {
     "name": "art rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:6PimpDQHW8sNtGfz1jDTAi"
+  },
+  {
+    "name": "asheville indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3z2RllPfFPitffsorrPc0J"
   },
   {
     "name": "asmr",
@@ -592,6 +612,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:5HAv8CH53gDzjRHw3s2TFD"
   },
   {
+    "name": "austrian metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5zBqJ2TE7dQrLB4Sxq6NVQ"
+  },
+  {
     "name": "austro-german modernism",
     "uri": "spotify:user:thesoundsofspotify:playlist:3ubtEnFuWe2aV4PcAuestW"
   },
@@ -676,6 +700,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6BIS9zOW7eMTURxORLJi2g"
   },
   {
+    "name": "balkan trap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3SvVSF8Ex8YyCjjaW9bojd"
+  },
+  {
     "name": "ballet class",
     "uri": "spotify:user:thesoundsofspotify:playlist:0HQGgNqnGE43URSB9W4Dy3"
   },
@@ -684,12 +712,24 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:24FlJf5U7AJ1AnlUY99TZD"
   },
   {
+    "name": "baltic black metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2OePO9GaqliMNHU4npmPs4"
+  },
+  {
     "name": "baltic choir",
     "uri": "spotify:user:thesoundsofspotify:playlist:4GJRH5oAmoRw170RSXR4HZ"
   },
   {
     "name": "baltic classical",
     "uri": "spotify:user:thesoundsofspotify:playlist:3L2EjCGqykpbr8L2izzTs5"
+  },
+  {
+    "name": "baltimore hip hop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4HD6HdYhcJq2GO8BvJjz30"
+  },
+  {
+    "name": "baltimore indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1Nk6Z3vICkStGHNHIDLfcQ"
   },
   {
     "name": "band organ",
@@ -864,6 +904,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3D833et5AHcMcMApBSml5s"
   },
   {
+    "name": "belgian metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5mCxFsaNdhe4kn7pup1Z5n"
+  },
+  {
     "name": "belgian modern jazz",
     "uri": "spotify:user:thesoundsofspotify:playlist:3MZ3gpxfiXeyi8k5iEce0w"
   },
@@ -1030,6 +1074,10 @@ module.exports = [
   {
     "name": "boston indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:56BvRtTh50Awa4zOGC70o2"
+  },
+  {
+    "name": "boston metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0SPPpYO8YKg4Uaga2tEFaO"
   },
   {
     "name": "boston punk",
@@ -1324,6 +1372,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6GLXp5kwSs0HRDnh6fqKKZ"
   },
   {
+    "name": "buffalo ny indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0IwWYZCm6MJHuzknIZHw7B"
+  },
+  {
+    "name": "buffalo ny metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0Xnd1ETzdiJF6DTM9ORCtO"
+  },
+  {
     "name": "bulgarian folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:6tQ9lxPQZazIl7NzChB3Ad"
   },
@@ -1370,6 +1426,10 @@ module.exports = [
   {
     "name": "calgary indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:3WZXxt7kTxNE2oyASosEm4"
+  },
+  {
+    "name": "cali rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4KxHxwmVq3Q7Gg9wkyOwzV"
   },
   {
     "name": "calypso",
@@ -1524,6 +1584,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0SuUJuDl8MFWN2lOU07EtW"
   },
   {
+    "name": "caracas indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1gVrsEPrtazGUMxFv7xh1N"
+  },
+  {
     "name": "carnatic",
     "uri": "spotify:user:thesoundsofspotify:playlist:4lDX4W8iQAm0hTVV6TfGpp"
   },
@@ -1570,6 +1634,10 @@ module.exports = [
   {
     "name": "cdmx indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:5mIxXHkKnD6sq7Wcb4af2u"
+  },
+  {
+    "name": "cedm",
+    "uri": "spotify:user:thesoundsofspotify:playlist:53Rj4icQg1wx38THnNcMA8"
   },
   {
     "name": "ceilidh",
@@ -1668,6 +1736,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4k8zipt68CH9xab4B07JRI"
   },
   {
+    "name": "charlotte nc indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7eNu8ro1A6RDZwMPo3tCCT"
+  },
+  {
     "name": "charred death",
     "uri": "spotify:user:thesoundsofspotify:playlist:7wp0iyiaAS55xDZB7ERVQD"
   },
@@ -1684,8 +1756,16 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0DsF1mb3M7yhJM6MUXR6fL"
   },
   {
+    "name": "chicago pop punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0sCxbu4WgloqSoxM5WZhjd"
+  },
+  {
     "name": "chicago punk",
     "uri": "spotify:user:thesoundsofspotify:playlist:1jO2KInTRF7Oebj7RyyazC"
+  },
+  {
+    "name": "chicago rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:71hJ9e25Ub4XZwiE1FZAjI"
   },
   {
     "name": "chicago soul",
@@ -1714,6 +1794,10 @@ module.exports = [
   {
     "name": "children's music",
     "uri": "spotify:user:thesoundsofspotify:playlist:3EBkMektqMgkilc2bOehLD"
+  },
+  {
+    "name": "chilean black metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7B4zWgQlQykf68FE3hPeK9"
   },
   {
     "name": "chilean hardcore",
@@ -1868,12 +1952,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:19MzV9T4UTnjZdQEWL3xFe"
   },
   {
+    "name": "christian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3l8CtYFuLlRkrh6zCBODwp"
+  },
+  {
     "name": "christian metal",
     "uri": "spotify:user:thesoundsofspotify:playlist:0m8nZXx1Y6MU0JnYxREiVf"
   },
   {
     "name": "christian music",
     "uri": "spotify:user:thesoundsofspotify:playlist:1b1BPM9hp5Q0eI7yuGTaot"
+  },
+  {
+    "name": "christian pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4LR7zJ6HkhAJFhQm4eTfqS"
   },
   {
     "name": "christian punk",
@@ -2300,6 +2392,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:5z0OFjAuMufpuiuKx7kFIc"
   },
   {
+    "name": "connecticut indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:57elLL2DHlR0zrTfPsOx7s"
+  },
+  {
     "name": "conscious hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:3IU0ZFCSvKNqASPNsWoPuj"
   },
@@ -2450,6 +2546,10 @@ module.exports = [
   {
     "name": "cuarteto",
     "uri": "spotify:user:thesoundsofspotify:playlist:3yD30J9sFKpMe60dbvfrIs"
+  },
+  {
+    "name": "cuban alternative",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4yHRpNzpFRWeKS0WinqHtW"
   },
   {
     "name": "cuban rumba",
@@ -2678,6 +2778,10 @@ module.exports = [
   {
     "name": "dark psytrance",
     "uri": "spotify:user:thesoundsofspotify:playlist:4p7LvTTcCt83rvC5tXPVnR"
+  },
+  {
+    "name": "dark trap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1lEZC1rWlusGF0IC6JxR5V"
   },
   {
     "name": "dark wave",
@@ -3160,6 +3264,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:03HwTZU40iEnWyRvOtR451"
   },
   {
+    "name": "denver rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:21XPGPsghJTjnFvzVX8wUe"
+  },
+  {
     "name": "depressive black metal",
     "uri": "spotify:user:thesoundsofspotify:playlist:4qpdGrwHTenL9t4m2nAbK5"
   },
@@ -3186,6 +3294,10 @@ module.exports = [
   {
     "name": "detroit hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:7gIFgVQoSml3JocSRd2t4S"
+  },
+  {
+    "name": "detroit indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3HF3TE8FU2U8IboXJd4PSi"
   },
   {
     "name": "detroit techno",
@@ -3250,6 +3362,10 @@ module.exports = [
   {
     "name": "djent",
     "uri": "spotify:user:thesoundsofspotify:playlist:6dRyRBIZl5acVd14h733T1"
+  },
+  {
+    "name": "dmv rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3ifLzTZj0ut6AZbJ6bwhF9"
   },
   {
     "name": "dominican pop",
@@ -3358,6 +3474,10 @@ module.exports = [
   {
     "name": "dubsteppe",
     "uri": "spotify:user:thesoundsofspotify:playlist:52znEJwTNgZg2n1T8C0WcV"
+  },
+  {
+    "name": "duduk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6pj10f5j0g9gjfnJnOVgH9"
   },
   {
     "name": "dunedin indie",
@@ -3656,12 +3776,28 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6Hhf2afEqaDe0Vut2AtlYS"
   },
   {
+    "name": "estonian electronic",
+    "uri": "spotify:user:thesoundsofspotify:playlist:015hxpj9Ds4ixai2HxN0h7"
+  },
+  {
     "name": "estonian folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:5bi3LFgROReB9Pj4x6MfTj"
   },
   {
     "name": "estonian hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:6XdW7adQLpt3o3gIJqE9XW"
+  },
+  {
+    "name": "estonian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3KsDNETNZ38sktwgKwlkWB"
+  },
+  {
+    "name": "estonian jazz",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2vhnckZPFBK0SqIC2aqnja"
+  },
+  {
+    "name": "estonian metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3YU0yEYcmTV7U4urOabDi9"
   },
   {
     "name": "estonian pop",
@@ -3768,6 +3904,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6vat2V2zBVw4cVQyp62EBQ"
   },
   {
+    "name": "fijian pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7Jra6ipuy04OfcvYlcZwCS"
+  },
+  {
     "name": "filmi",
     "uri": "spotify:user:thesoundsofspotify:playlist:1uny7o4LNoe7C5qJJ8S1k1"
   },
@@ -3842,6 +3982,10 @@ module.exports = [
   {
     "name": "finnish pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:3rjPCrrCjMZwWDlAIRu44q"
+  },
+  {
+    "name": "finnish psychedelic rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3YYCtoClqVQZxgvG3nzVLH"
   },
   {
     "name": "finnish punk",
@@ -3958,6 +4102,10 @@ module.exports = [
   {
     "name": "footwork",
     "uri": "spotify:user:thesoundsofspotify:playlist:2TGq3rEqYHLaHh8cFyg8vm"
+  },
+  {
+    "name": "forest psy",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7615WtgKBqapPBpBB9lxUW"
   },
   {
     "name": "forro",
@@ -4148,6 +4296,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6X1FPMpA9bOtPJvIUvb1vh"
   },
   {
+    "name": "gainesville indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0JA3x9RMwEyt03U59Bl7yJ"
+  },
+  {
     "name": "galante era",
     "uri": "spotify:user:thesoundsofspotify:playlist:7h2YS1Asvv7C9XgCMYxAw9"
   },
@@ -4248,6 +4400,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6S5zF06mFcNSd9JYYivCBM"
   },
   {
+    "name": "german hardcore",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6mNVIQaCsSfctLelEZBRJz"
+  },
+  {
     "name": "german hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:0N2gkh3nggtCtksCU2cSty"
   },
@@ -4304,6 +4460,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4g8qRc8jVOv6bQc4ybb0rF"
   },
   {
+    "name": "german shoegaze",
+    "uri": "spotify:user:thesoundsofspotify:playlist:32AohcWAUkkSw3GkAdbdD8"
+  },
+  {
     "name": "german show tunes",
     "uri": "spotify:user:thesoundsofspotify:playlist:5uvN9thjAYIR1H0xuvinAS"
   },
@@ -4318,6 +4478,10 @@ module.exports = [
   {
     "name": "german techno",
     "uri": "spotify:user:thesoundsofspotify:playlist:1x7cCTGSYF2xYu1hWiPQWk"
+  },
+  {
+    "name": "german thrash metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:660Huir7rfthrl2FEo4sGL"
   },
   {
     "name": "german worship",
@@ -4452,6 +4616,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0V6rAUFWyVrTdxt701eZDh"
   },
   {
+    "name": "grand rapids indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1LvN6JVVsbJkS6aK1ApL0V"
+  },
+  {
     "name": "grave wave",
     "uri": "spotify:user:thesoundsofspotify:playlist:2Ndvcc1Qz9mNbQemnforB5"
   },
@@ -4474,6 +4642,14 @@ module.exports = [
   {
     "name": "greek indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:5UMnYHbk0p2Ng3lCiVosMZ"
+  },
+  {
+    "name": "greek metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:40SU6Jnb1f0fYjpN1bmhjP"
+  },
+  {
+    "name": "greek rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4FGSq8L27DzNOAv63DbBSV"
   },
   {
     "name": "greenlandic pop",
@@ -4532,12 +4708,24 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:5VhS3i3cBW0RdGQU6nqGf7"
   },
   {
+    "name": "guatemalan indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4XtadMrOYHCU5QTr0sNXP1"
+  },
+  {
+    "name": "guatemalan pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5gZbaD8ftLCQTOkbuCSpis"
+  },
+  {
     "name": "guidance",
     "uri": "spotify:user:thesoundsofspotify:playlist:78WdKuEUr6gpUMpQpDeaYe"
   },
   {
     "name": "guitar case",
     "uri": "spotify:user:thesoundsofspotify:playlist:0ZEV56fLOnyx0lWRueQwhO"
+  },
+  {
+    "name": "gymcore",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4iJOZzUyARH8EpZngrkiBm"
   },
   {
     "name": "gypsy jazz",
@@ -4788,6 +4976,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6AzCASXpbvX5o3F8yaj1y0"
   },
   {
+    "name": "houston indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6UfbwvRitXs5YLmPg8prFL"
+  },
+  {
+    "name": "houston rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0pyHVjbjiyuutRjtP3hvNY"
+  },
+  {
     "name": "huayno",
     "uri": "spotify:user:thesoundsofspotify:playlist:3OJrXUVldQpDZBfEnZACyE"
   },
@@ -4904,6 +5100,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3fiYkXoS0nKeANVXh8agRA"
   },
   {
+    "name": "indiana indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0qAABudocDOtIevxGfCdgJ"
+  },
+  {
     "name": "indie anthem-folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:4Ub3q1CU9YGXR2bkJ4wKwe"
   },
@@ -5000,6 +5200,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4NQpJ0cZK9CVp16Yq2bN54"
   },
   {
+    "name": "indie salvadoreno",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7kVFp5nMo1YkcjxU2Vw2aU"
+  },
+  {
     "name": "indie shoegaze",
     "uri": "spotify:user:thesoundsofspotify:playlist:3AZb0wfzzrRTjcaD2AqV1r"
   },
@@ -5074,6 +5278,10 @@ module.exports = [
   {
     "name": "industrial rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:3YA1JuMxq4iJNRr1G4hilC"
+  },
+  {
+    "name": "indy indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4zVQ8U68kvYzcN6Xb4yiNU"
   },
   {
     "name": "instrumental funk",
@@ -5360,6 +5568,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:537P5gB83q9AmtDFdFNBLO"
   },
   {
+    "name": "jacksonville indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:57Ek0UGrOmJlazSSjcazrB"
+  },
+  {
     "name": "jam band",
     "uri": "spotify:user:thesoundsofspotify:playlist:1z1LfuAoQQDRKLOyVQvaRa"
   },
@@ -5454,6 +5666,10 @@ module.exports = [
   {
     "name": "jazz composition",
     "uri": "spotify:user:thesoundsofspotify:playlist:4yH9lNXRP4cFVJhVefAqpo"
+  },
+  {
+    "name": "jazz cubano",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5t8Ohd3K05yxXPUmF3afO7"
   },
   {
     "name": "jazz double bass",
@@ -5632,8 +5848,16 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3eYt9gyFTUOcqKoAW2gQWQ"
   },
   {
+    "name": "kazakh pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6dVwWlgvlxfKRVLkZqfFGd"
+  },
+  {
     "name": "kc indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:54cwyXraFoPlBsHdHFn27t"
+  },
+  {
+    "name": "kentucky indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0gGvbAcQBdLWdEiayXBg7R"
   },
   {
     "name": "keroncong",
@@ -5848,12 +6072,32 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6UNk3cgOY4fHzxNBXmSui9"
   },
   {
+    "name": "latvian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3y7GFNHSVQoII6mOYTvJaO"
+  },
+  {
+    "name": "latvian metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6B1R2NhaSBVDEuKRDqhjAo"
+  },
+  {
     "name": "latvian pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:64uNwoWinoCtqoIRe4f3mb"
   },
   {
+    "name": "latvian rock",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6Wc5d03C3fyD4oXEeclMEE"
+  },
+  {
+    "name": "lawrence ks indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0g7XBWmSd7Bm9dLP04dbhm"
+  },
+  {
     "name": "lds",
     "uri": "spotify:user:thesoundsofspotify:playlist:6PA6TCSmljI69KJ8Co6tVd"
+  },
+  {
+    "name": "lds youth",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1E7BcIB5KcUEgeivGlZKy1"
   },
   {
     "name": "lebanese pop",
@@ -5862,6 +6106,10 @@ module.exports = [
   {
     "name": "leeds indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:1y18nWKJAUmRUHT7sbLABU"
+  },
+  {
+    "name": "leon gto indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4Aq9WJgae8vjDQWFMiJsLM"
   },
   {
     "name": "lesen",
@@ -5902,6 +6150,10 @@ module.exports = [
   {
     "name": "limerick indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:3NjB4oamzRkLEKzAOATcVW"
+  },
+  {
+    "name": "lincoln ne indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2DEoTCwNKhPrscHszesnoC"
   },
   {
     "name": "liquid funk",
@@ -5968,6 +6220,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:7KNEp9goFIQIuIwqFDFgTg"
   },
   {
+    "name": "lovsang",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6uNsNfkG4lwlCdcN12erhu"
+  },
+  {
     "name": "lowercase",
     "uri": "spotify:user:thesoundsofspotify:playlist:0X48ayqAs9PQ2Z4wRe2YBb"
   },
@@ -5984,8 +6240,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:52VptovPDaoqCMZm1dzIcP"
   },
   {
+    "name": "luxembourgian hip hop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6rUSUvFHUYFDKq7zdv4tXT"
+  },
+  {
+    "name": "luxembourgian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:32N5xfn5QZ7Vxc1Zm7nYlB"
+  },
+  {
     "name": "macedonian folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:224aeR2sxjOgNyUWDyGtcw"
+  },
+  {
+    "name": "macedonian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7MRwqEjIGniaqkhLGedmJP"
   },
   {
     "name": "macedonian pop",
@@ -6224,12 +6492,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:2VJ1VzZ7u17bqCsBz0Vrwm"
   },
   {
+    "name": "memphis americana",
+    "uri": "spotify:user:thesoundsofspotify:playlist:37qBQkNmniKSzKQSaF1gOw"
+  },
+  {
     "name": "memphis blues",
     "uri": "spotify:user:thesoundsofspotify:playlist:6T4DmAc9TqsUbfpaM8MZem"
   },
   {
     "name": "memphis hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:1rmskknWn4KPtEC6PHh2Rd"
+  },
+  {
+    "name": "memphis indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4AQv9pyvgAUI44uTJuV8Og"
   },
   {
     "name": "memphis soul",
@@ -6280,6 +6556,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0xXjHgogk3WKOvzdCK2zDx"
   },
   {
+    "name": "metal uruguayo",
+    "uri": "spotify:user:thesoundsofspotify:playlist:62PHV1LLPUMERqxHsti032"
+  },
+  {
     "name": "metalcore",
     "uri": "spotify:user:thesoundsofspotify:playlist:71kedeh6L7P0equUL0vOqe"
   },
@@ -6290,6 +6570,10 @@ module.exports = [
   {
     "name": "metropopolis",
     "uri": "spotify:user:thesoundsofspotify:playlist:70z5dMlsS9fPudWdQ9ebqP"
+  },
+  {
+    "name": "mexican black metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2WEeEjUJTQJn0lYhjqJUyJ"
   },
   {
     "name": "mexican classical",
@@ -6360,6 +6644,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4F2wv2RnXpmVW86K7Z2Es2"
   },
   {
+    "name": "miami indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7Cmn2Cj3tGonMFNq8VGjwB"
+  },
+  {
+    "name": "michigan folk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3XHB7IQFe3UmJ2H803w8Ms"
+  },
+  {
     "name": "michigan indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:1PRwQWddlF6zWt808V29CP"
   },
@@ -6378,6 +6670,14 @@ module.exports = [
   {
     "name": "military band",
     "uri": "spotify:user:thesoundsofspotify:playlist:0dHY01cuEZbyQ4Sy5x9qFd"
+  },
+  {
+    "name": "milwaukee hip hop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3BQd5cKQFeLS3S3jdZI8eM"
+  },
+  {
+    "name": "milwaukee indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:08AHYrQ9Og6ZuhJtEFbtyv"
   },
   {
     "name": "minecraft",
@@ -6418,6 +6718,10 @@ module.exports = [
   {
     "name": "mississippi indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:2VkQG1bSHwwlnu7zOz6hYr"
+  },
+  {
+    "name": "missouri indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:79BDtjelsQijccPGnV7tGT"
   },
   {
     "name": "mizrahi",
@@ -6652,6 +6956,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:2Wh7WpNxoec6eoJXv7QNDk"
   },
   {
+    "name": "neo r&b",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6PYtLNuIDCA1TZoLSaBYm7"
+  },
+  {
     "name": "neo soul",
     "uri": "spotify:user:thesoundsofspotify:playlist:2zxYQBTWiXgpQEyQggYSTm"
   },
@@ -6704,6 +7012,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:2jjhSbwhv2gNJh0ARmW0A2"
   },
   {
+    "name": "neo-traditional bluegrass",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6tLZeHeJuat5gr4ygTW4Fc"
+  },
+  {
     "name": "neo-traditional country",
     "uri": "spotify:user:thesoundsofspotify:playlist:42xcPVnKaE1gu7PScFIG9H"
   },
@@ -6718,6 +7030,10 @@ module.exports = [
   {
     "name": "neomelodici",
     "uri": "spotify:user:thesoundsofspotify:playlist:6647V02cNn9NzfJeaM0baS"
+  },
+  {
+    "name": "neon pop punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:52NjfVJ2mAEaeOorFvrGvk"
   },
   {
     "name": "neotango",
@@ -6772,6 +7088,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3F82ezKwcNctesxcgvlL5x"
   },
   {
+    "name": "new england americana",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2dKpmkhjtnpUnqY6kDB3Mv"
+  },
+  {
+    "name": "new hampshire indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3EGkQbWSsyiWq4iDcNeMv8"
+  },
+  {
     "name": "new jack smooth",
     "uri": "spotify:user:thesoundsofspotify:playlist:38Yp2bVRIO1ER4zEFlhyk0"
   },
@@ -6782,6 +7106,10 @@ module.exports = [
   {
     "name": "new jersey indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:1dP8vfs0Vt1uNk8VbPVwWJ"
+  },
+  {
+    "name": "new jersey rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4zRssuqXi9x60JgHq5oypS"
   },
   {
     "name": "new mexico music",
@@ -6802,6 +7130,10 @@ module.exports = [
   {
     "name": "new orleans jazz",
     "uri": "spotify:user:thesoundsofspotify:playlist:0iMiZcvIy26MqHQln5kkrI"
+  },
+  {
+    "name": "new orleans rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:41wq6c8ic47zFa4ixRZp6P"
   },
   {
     "name": "new rave",
@@ -6842,6 +7174,10 @@ module.exports = [
   {
     "name": "nigerian hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:33VujNIodgRGBI4TUuB4mx"
+  },
+  {
+    "name": "nigerian pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7MwdQNmdKjQx3h1p3vP2eZ"
   },
   {
     "name": "nightrun",
@@ -6902,6 +7238,18 @@ module.exports = [
   {
     "name": "norteno",
     "uri": "spotify:user:thesoundsofspotify:playlist:2UITkS3qkO0x6bKVzKZrbS"
+  },
+  {
+    "name": "north carolina emo",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6UhiAgqwwUoXo4JOrV104r"
+  },
+  {
+    "name": "north carolina indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2QecrVF3lRAI082RQiH5pd"
+  },
+  {
+    "name": "north dakota indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:05dDF5E8vI9iPsPp2wBELq"
   },
   {
     "name": "northern irish indie",
@@ -7032,8 +7380,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6uSkf3ARKkBhgf8bQE8NSN"
   },
   {
+    "name": "nwocr",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3uHhaeuWuy5wuL6WIAxaWV"
+  },
+  {
     "name": "nwothm",
     "uri": "spotify:user:thesoundsofspotify:playlist:4eE8nsqOILpqGNPdC33B9X"
+  },
+  {
+    "name": "nyc rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6YiocLoaqYYGiAztoGspzh"
+  },
+  {
+    "name": "nyhc",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7nircqacJ9I8CqYs9HdKtY"
   },
   {
     "name": "nz hip hop",
@@ -7042,6 +7402,10 @@ module.exports = [
   {
     "name": "nz indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:30vAng8N6dO0Reg7mS1MFp"
+  },
+  {
+    "name": "nz metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:05pbh0KetX5jvbbMBbmfQg"
   },
   {
     "name": "nz pop",
@@ -7312,6 +7676,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6PRBsvj0lJtG5CUIwCiGMc"
   },
   {
+    "name": "peruvian metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3CDvBbpv7CfiK7V7hxeHBd"
+  },
+  {
+    "name": "peruvian punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:28m57W4UI4eetkNu9SvtX9"
+  },
+  {
     "name": "peruvian rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:2jOeUlyI9UeiGlPp6JYVAN"
   },
@@ -7322,6 +7694,10 @@ module.exports = [
   {
     "name": "philly indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:5bywGHY4NQKcTmGXAVsf3N"
+  },
+  {
+    "name": "philly rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:46OzYiu5J1KvNDAwyY126g"
   },
   {
     "name": "phoenix indie",
@@ -7368,8 +7744,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:009ddWL6yPxpgfLY76Z6x2"
   },
   {
+    "name": "pittsburgh indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:653Lbg7qjivjRiaAQjVVi4"
+  },
+  {
+    "name": "pittsburgh rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5hEnBDgbXhqEa2mUr4sFVU"
+  },
+  {
     "name": "pixie",
     "uri": "spotify:user:thesoundsofspotify:playlist:79AOdu3ELUDHkDPJT1rXUt"
+  },
+  {
+    "name": "png pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4e6BAhG2ginVll1DUg3WMi"
   },
   {
     "name": "poetry",
@@ -7516,6 +7904,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:5eXtMliOlZWHMcDDRkANhL"
   },
   {
+    "name": "pop folk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2zd6Wmq9sepWQFYWQAuyko"
+  },
+  {
     "name": "pop house",
     "uri": "spotify:user:thesoundsofspotify:playlist:04ugFARyXFS9iQaiHjes6i"
   },
@@ -7572,6 +7964,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6VoRk8kuJy99zXhIxdjwqt"
   },
   {
+    "name": "portuguese death metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0LcFA2C9lH8yfRXt8S2N3R"
+  },
+  {
     "name": "portuguese early music",
     "uri": "spotify:user:thesoundsofspotify:playlist:2WWDUDxy1PCo3bonaDqe6A"
   },
@@ -7590,6 +7986,10 @@ module.exports = [
   {
     "name": "portuguese jazz",
     "uri": "spotify:user:thesoundsofspotify:playlist:2NXy82Atoz6QzvmxQ0rir3"
+  },
+  {
+    "name": "portuguese metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5DcksqG6G4xJ9nu1t15wEQ"
   },
   {
     "name": "portuguese pop",
@@ -7904,6 +8304,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3kYWjrbBEvI8n3bPI2ZRml"
   },
   {
+    "name": "rap cristao",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5pLrIA7efzz23RMrQUiMFt"
+  },
+  {
     "name": "rap cristiano",
     "uri": "spotify:user:thesoundsofspotify:playlist:2HAQJtMJXSdgthjyE9TZOI"
   },
@@ -8024,6 +8428,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6ZdTdH3hRFXGSUcw10OXYf"
   },
   {
+    "name": "retro soul",
+    "uri": "spotify:user:thesoundsofspotify:playlist:27Rk57RtVvXDePop2Toln0"
+  },
+  {
+    "name": "rhode island indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:41tRlkE8wyuONtruInGMvb"
+  },
+  {
     "name": "rhythm and blues",
     "uri": "spotify:user:thesoundsofspotify:playlist:4uSZwUcMhCdfspqtWaQGwD"
   },
@@ -8086,6 +8498,10 @@ module.exports = [
   {
     "name": "rock gaucho",
     "uri": "spotify:user:thesoundsofspotify:playlist:3iKW0XQWtHciUBB7JBT5cu"
+  },
+  {
+    "name": "rock gospel brasileiro",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0oa0FjnSdQjWzBIhl4GEqy"
   },
   {
     "name": "rock kapak",
@@ -8212,12 +8628,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:3Eqk8Q21vdcEw6PwYSXwnD"
   },
   {
+    "name": "russian experimental electronic",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1ozxaOoXCqpoeAXfw2XuMa"
+  },
+  {
     "name": "russian folk",
     "uri": "spotify:user:thesoundsofspotify:playlist:4Xmsi84ZemGTbWpN4ty8J5"
   },
   {
     "name": "russian hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:69d6UEZKkFtQNEDQyntv7S"
+  },
+  {
+    "name": "russian indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5xa7wwrQ6oXuBaHJEpMUje"
   },
   {
     "name": "russian jazz",
@@ -8234,6 +8658,10 @@ module.exports = [
   {
     "name": "russian pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:3C24egLjqcCmIMgfztqI2r"
+  },
+  {
+    "name": "russian post-punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3rGqaAFnWBXfSlzQpiQAQh"
   },
   {
     "name": "russian post-rock",
@@ -8276,6 +8704,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:58ELr3yC5uxg8QsQWD8Lmy"
   },
   {
+    "name": "salsa cubana",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0vnGFiPxIyWRWlWRrd3nul"
+  },
+  {
     "name": "salsa international",
     "uri": "spotify:user:thesoundsofspotify:playlist:1OURZGZJg8RYmXmQQA4yDc"
   },
@@ -8302,6 +8734,18 @@ module.exports = [
   {
     "name": "samoan pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:6HvalHc8PipnY2SaarvTtA"
+  },
+  {
+    "name": "san antonio indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3FJZxcUxT0pnCRNeFoO84k"
+  },
+  {
+    "name": "san diego indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5Y4PsNJu3Nxbhhf82H7otO"
+  },
+  {
+    "name": "san diego rap",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1ZosaIZMTLyomdop952uRQ"
   },
   {
     "name": "saskatchewan indie",
@@ -8424,6 +8868,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:2EkYuzS8qUbRdqV5Bjnnin"
   },
   {
+    "name": "sertanejo gospel",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5A6le1sitmcZpF3eHQw5Lj"
+  },
+  {
     "name": "sertanejo pop",
     "uri": "spotify:user:thesoundsofspotify:playlist:1JsjFOxcEp912tK85VC98V"
   },
@@ -8442,6 +8890,10 @@ module.exports = [
   {
     "name": "shabad",
     "uri": "spotify:user:thesoundsofspotify:playlist:2HizNyoSa1NdOX0r30vrXX"
+  },
+  {
+    "name": "shamanic",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2gmlwXEHmmvxTG6JZN5uBQ"
   },
   {
     "name": "shanty",
@@ -8476,6 +8928,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0Psnw0YWHuqAvVO8YhYJWF"
   },
   {
+    "name": "sinaloa indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5V1Viq2gAWu0yHWLL9LaTf"
+  },
+  {
     "name": "singaporean indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:5BJ5rG6hFaItN8dIfZukGM"
   },
@@ -8498,6 +8954,10 @@ module.exports = [
   {
     "name": "sinhala",
     "uri": "spotify:user:thesoundsofspotify:playlist:3jf3D3t1AT3tuNLdbDLBfs"
+  },
+  {
+    "name": "sinogaze",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1mKUj2azsDUhgk7bONBZ3y"
   },
   {
     "name": "sitar",
@@ -8576,6 +9036,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:6WYLegi5QthJ5ivzNnz4wM"
   },
   {
+    "name": "slayer",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5RSFiF5lKFazAm26oCvJO2"
+  },
+  {
     "name": "slc indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:4fAU0MQfmzDQkMZ5pR0zY3"
   },
@@ -8646,6 +9110,10 @@ module.exports = [
   {
     "name": "solipsynthm",
     "uri": "spotify:user:thesoundsofspotify:playlist:08LL9PQv1uQ11gPKj1CTvW"
+  },
+  {
+    "name": "son cubano",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4xjjbNLvFXkiPRtPJ1JDDH"
   },
   {
     "name": "son cubano clasico",
@@ -8732,6 +9200,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:1uEgUI0ouVrWVeSImmq6xh"
   },
   {
+    "name": "south carolina indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2G4tTJeywI9gtpARu6ldA0"
+  },
+  {
+    "name": "south dakota indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0KQrvXqaLBkDJg7mzkShgY"
+  },
+  {
     "name": "southeast asian post-rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:60VqjFK8tIzmpc5Q1NTosK"
   },
@@ -8812,6 +9288,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:1VNvyyyQvTlmRax4cicUK3"
   },
   {
+    "name": "spanish jazz",
+    "uri": "spotify:user:thesoundsofspotify:playlist:4sff5BasdWwxgAW2B6pW0U"
+  },
+  {
+    "name": "spanish metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2khJPxCAK41z7bhSqRsNEd"
+  },
+  {
     "name": "spanish modern rock",
     "uri": "spotify:user:thesoundsofspotify:playlist:6n2KfHmhzxgfssyfKwnk6d"
   },
@@ -8874,6 +9358,10 @@ module.exports = [
   {
     "name": "spoken word",
     "uri": "spotify:user:thesoundsofspotify:playlist:7BvhYqKX9xCjKKkvsiowo3"
+  },
+  {
+    "name": "springfield mo indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5J4MQ0qbxUsV5S9ssktICN"
   },
   {
     "name": "spytrack",
@@ -9356,6 +9844,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:1NibfBr59fliv55zruqGLf"
   },
   {
+    "name": "tongan pop",
+    "uri": "spotify:user:thesoundsofspotify:playlist:6YfW0Ao3gHA2b7G27fhpKj"
+  },
+  {
     "name": "toronto indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:1UPXWrG5mDHMbiBHSxmT7k"
   },
@@ -9584,6 +10076,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4tenLyP9rbOA9oI4ZA2hwB"
   },
   {
+    "name": "turkish soundtrack",
+    "uri": "spotify:user:thesoundsofspotify:playlist:5sSUx1Z8LMMPNY6JtWRQ6r"
+  },
+  {
     "name": "turkish trap",
     "uri": "spotify:user:thesoundsofspotify:playlist:5HmIKVhLNyi6CLopqdLJVU"
   },
@@ -9628,6 +10124,10 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:1fy3ClO9H8sOTy5ij9H5DC"
   },
   {
+    "name": "uk beatdown",
+    "uri": "spotify:user:thesoundsofspotify:playlist:0glh6jk9qJ2Ibuz3qbERLu"
+  },
+  {
     "name": "uk contemporary r&b",
     "uri": "spotify:user:thesoundsofspotify:playlist:5kdP7VQedYdDzhTvfovu0u"
   },
@@ -9656,12 +10156,20 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:4Ek92zIh4Sq5IVU9Mgv7d6"
   },
   {
+    "name": "uk pop punk",
+    "uri": "spotify:user:thesoundsofspotify:playlist:36ixGm7UcqjpBUEHmAY1R1"
+  },
+  {
     "name": "uk post-punk",
     "uri": "spotify:user:thesoundsofspotify:playlist:0PdixUwE2t9E4ehH6TaTyi"
   },
   {
     "name": "uk reggae",
     "uri": "spotify:user:thesoundsofspotify:playlist:76KkfFSYNWSYHwnhRBxUDq"
+  },
+  {
+    "name": "ukhc",
+    "uri": "spotify:user:thesoundsofspotify:playlist:7iF21JdLdqullZnsPXps0n"
   },
   {
     "name": "ukrainian black metal",
@@ -9818,6 +10326,10 @@ module.exports = [
   {
     "name": "venezuelan indie",
     "uri": "spotify:user:thesoundsofspotify:playlist:5HhzMmDUZoNjKa5GBpV6WV"
+  },
+  {
+    "name": "venezuelan metal",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3dcYLsaZ5ZrjU7BCYa84zW"
   },
   {
     "name": "venezuelan rock",
@@ -10060,6 +10572,14 @@ module.exports = [
     "uri": "spotify:user:thesoundsofspotify:playlist:0BraqFvmohtWS1TKtBVi6B"
   },
   {
+    "name": "west virginia indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:1XqFISoYLSOgqSOekdJbwX"
+  },
+  {
+    "name": "western mass indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:3HdWNB9xTtChlH7IZRkpzr"
+  },
+  {
     "name": "western swing",
     "uri": "spotify:user:thesoundsofspotify:playlist:4C4MIUXQzBPxXL4pb4iXb4"
   },
@@ -10074,6 +10594,10 @@ module.exports = [
   {
     "name": "winnipeg hip hop",
     "uri": "spotify:user:thesoundsofspotify:playlist:3jJdVfjC6emcsncxWd16Ud"
+  },
+  {
+    "name": "wisconsin indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:2dX737aZqeaXYSk2UQcj2T"
   },
   {
     "name": "witch house",
@@ -10122,6 +10646,10 @@ module.exports = [
   {
     "name": "wrock",
     "uri": "spotify:user:thesoundsofspotify:playlist:3MAmofobV4T8ycrHSpTwn3"
+  },
+  {
+    "name": "wyoming indie",
+    "uri": "spotify:user:thesoundsofspotify:playlist:07wqzoWEwrVHJE7kopdDy2"
   },
   {
     "name": "ye ye",

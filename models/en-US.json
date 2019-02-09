@@ -390,6 +390,15 @@
               }
             },
             {
+              "id": "genre_afghan_pop",
+              "name": {
+                "value": "afghan pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_african_gospel",
               "name": {
                 "value": "african gospel",
@@ -429,6 +438,15 @@
               "id": "genre_afro_house",
               "name": {
                 "value": "afro house",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_afro_psych",
+              "name": {
+                "value": "afro psych",
                 "synonyms": [
 
                 ]
@@ -744,6 +762,15 @@
               "id": "genre_ambient_psychill",
               "name": {
                 "value": "ambient psychill",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_ambient_worship",
+              "name": {
+                "value": "ambient worship",
                 "synonyms": [
 
                 ]
@@ -1101,6 +1128,15 @@
               }
             },
             {
+              "id": "genre_armenian_pop",
+              "name": {
+                "value": "armenian pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_arpa_paraguaya",
               "name": {
                 "value": "arpa paraguaya",
@@ -1122,6 +1158,15 @@
               "id": "genre_art_rock",
               "name": {
                 "value": "art rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_asheville_indie",
+              "name": {
+                "value": "asheville indie",
                 "synonyms": [
 
                 ]
@@ -1525,6 +1570,15 @@
               }
             },
             {
+              "id": "genre_austrian_metal",
+              "name": {
+                "value": "austrian metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_austro_german_modernism",
               "name": {
                 "value": "austro-german modernism",
@@ -1714,6 +1768,15 @@
               }
             },
             {
+              "id": "genre_balkan_trap",
+              "name": {
+                "value": "balkan trap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_ballet_class",
               "name": {
                 "value": "ballet class",
@@ -1732,6 +1795,15 @@
               }
             },
             {
+              "id": "genre_baltic_black_metal",
+              "name": {
+                "value": "baltic black metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_baltic_choir",
               "name": {
                 "value": "baltic choir",
@@ -1744,6 +1816,24 @@
               "id": "genre_baltic_classical",
               "name": {
                 "value": "baltic classical",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_baltimore_hip_hop",
+              "name": {
+                "value": "baltimore hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_baltimore_indie",
+              "name": {
+                "value": "baltimore indie",
                 "synonyms": [
 
                 ]
@@ -2137,6 +2227,15 @@
               }
             },
             {
+              "id": "genre_belgian_metal",
+              "name": {
+                "value": "belgian metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_belgian_modern_jazz",
               "name": {
                 "value": "belgian modern jazz",
@@ -2509,6 +2608,15 @@
               "id": "genre_boston_indie",
               "name": {
                 "value": "boston indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_boston_metal",
+              "name": {
+                "value": "boston metal",
                 "synonyms": [
 
                 ]
@@ -3172,6 +3280,24 @@
               }
             },
             {
+              "id": "genre_buffalo_ny_indie",
+              "name": {
+                "value": "buffalo ny indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_buffalo_ny_metal",
+              "name": {
+                "value": "buffalo ny metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_bulgarian_folk",
               "name": {
                 "value": "bulgarian folk",
@@ -3274,6 +3400,15 @@
               "id": "genre_calgary_indie",
               "name": {
                 "value": "calgary indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_cali_rap",
+              "name": {
+                "value": "cali rap",
                 "synonyms": [
 
                 ]
@@ -3622,6 +3757,15 @@
               }
             },
             {
+              "id": "genre_caracas_indie",
+              "name": {
+                "value": "caracas indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_carnatic",
               "name": {
                 "value": "carnatic",
@@ -3724,6 +3868,15 @@
               "id": "genre_cdmx_indie",
               "name": {
                 "value": "cdmx indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_cedm",
+              "name": {
+                "value": "cedm",
                 "synonyms": [
 
                 ]
@@ -3946,6 +4099,15 @@
               }
             },
             {
+              "id": "genre_charlotte_nc_indie",
+              "name": {
+                "value": "charlotte nc indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_charred_death",
               "name": {
                 "value": "charred death",
@@ -3982,9 +4144,27 @@
               }
             },
             {
+              "id": "genre_chicago_pop_punk",
+              "name": {
+                "value": "chicago pop punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_chicago_punk",
               "name": {
                 "value": "chicago punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_chicago_rap",
+              "name": {
+                "value": "chicago rap",
                 "synonyms": [
 
                 ]
@@ -4048,6 +4228,15 @@
               "id": "genre_children_s_music",
               "name": {
                 "value": "children's music",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_chilean_black_metal",
+              "name": {
+                "value": "chilean black metal",
                 "synonyms": [
 
                 ]
@@ -4396,6 +4585,15 @@
               }
             },
             {
+              "id": "genre_christian_indie",
+              "name": {
+                "value": "christian indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_christian_metal",
               "name": {
                 "value": "christian metal",
@@ -4408,6 +4606,15 @@
               "id": "genre_christian_music",
               "name": {
                 "value": "christian music",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_christian_pop",
+              "name": {
+                "value": "christian pop",
                 "synonyms": [
 
                 ]
@@ -5368,6 +5575,15 @@
               }
             },
             {
+              "id": "genre_connecticut_indie",
+              "name": {
+                "value": "connecticut indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_conscious_hip_hop",
               "name": {
                 "value": "conscious hip hop",
@@ -5704,6 +5920,15 @@
               "id": "genre_cuarteto",
               "name": {
                 "value": "cuarteto",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_cuban_alternative",
+              "name": {
+                "value": "cuban alternative",
                 "synonyms": [
 
                 ]
@@ -6217,6 +6442,15 @@
               "id": "genre_dark_psytrance",
               "name": {
                 "value": "dark psytrance",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_dark_trap",
+              "name": {
+                "value": "dark trap",
                 "synonyms": [
 
                 ]
@@ -7304,6 +7538,15 @@
               }
             },
             {
+              "id": "genre_denver_rap",
+              "name": {
+                "value": "denver rap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_depressive_black_metal",
               "name": {
                 "value": "depressive black metal",
@@ -7361,6 +7604,15 @@
               "id": "genre_detroit_hip_hop",
               "name": {
                 "value": "detroit hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_detroit_indie",
+              "name": {
+                "value": "detroit indie",
                 "synonyms": [
 
                 ]
@@ -7505,6 +7757,15 @@
               "id": "genre_djent",
               "name": {
                 "value": "djent",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_dmv_rap",
+              "name": {
+                "value": "dmv rap",
                 "synonyms": [
 
                 ]
@@ -7748,6 +8009,15 @@
               "id": "genre_dubsteppe",
               "name": {
                 "value": "dubsteppe",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_duduk",
+              "name": {
+                "value": "duduk",
                 "synonyms": [
 
                 ]
@@ -8420,6 +8690,15 @@
               }
             },
             {
+              "id": "genre_estonian_electronic",
+              "name": {
+                "value": "estonian electronic",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_estonian_folk",
               "name": {
                 "value": "estonian folk",
@@ -8432,6 +8711,33 @@
               "id": "genre_estonian_hip_hop",
               "name": {
                 "value": "estonian hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_estonian_indie",
+              "name": {
+                "value": "estonian indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_estonian_jazz",
+              "name": {
+                "value": "estonian jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_estonian_metal",
+              "name": {
+                "value": "estonian metal",
                 "synonyms": [
 
                 ]
@@ -8672,6 +8978,15 @@
               }
             },
             {
+              "id": "genre_fijian_pop",
+              "name": {
+                "value": "fijian pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_filmi",
               "name": {
                 "value": "filmi",
@@ -8837,6 +9152,15 @@
               "id": "genre_finnish_pop",
               "name": {
                 "value": "finnish pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_finnish_psychedelic_rock",
+              "name": {
+                "value": "finnish psychedelic rock",
                 "synonyms": [
 
                 ]
@@ -9098,6 +9422,15 @@
               "id": "genre_footwork",
               "name": {
                 "value": "footwork",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_forest_psy",
+              "name": {
+                "value": "forest psy",
                 "synonyms": [
 
                 ]
@@ -9527,6 +9860,15 @@
               }
             },
             {
+              "id": "genre_gainesville_indie",
+              "name": {
+                "value": "gainesville indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_galante_era",
               "name": {
                 "value": "galante era",
@@ -9752,6 +10094,15 @@
               }
             },
             {
+              "id": "genre_german_hardcore",
+              "name": {
+                "value": "german hardcore",
+                "synonyms": [
+                  "german hard core"
+                ]
+              }
+            },
+            {
               "id": "genre_german_hip_hop",
               "name": {
                 "value": "german hip hop",
@@ -9878,6 +10229,15 @@
               }
             },
             {
+              "id": "genre_german_shoegaze",
+              "name": {
+                "value": "german shoegaze",
+                "synonyms": [
+                  "german shoe gaze"
+                ]
+              }
+            },
+            {
               "id": "genre_german_show_tunes",
               "name": {
                 "value": "german show tunes",
@@ -9908,6 +10268,15 @@
               "id": "genre_german_techno",
               "name": {
                 "value": "german techno",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_german_thrash_metal",
+              "name": {
+                "value": "german thrash metal",
                 "synonyms": [
 
                 ]
@@ -10211,6 +10580,15 @@
               }
             },
             {
+              "id": "genre_grand_rapids_indie",
+              "name": {
+                "value": "grand rapids indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_grave_wave",
               "name": {
                 "value": "grave wave",
@@ -10259,6 +10637,24 @@
               "id": "genre_greek_indie",
               "name": {
                 "value": "greek indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_greek_metal",
+              "name": {
+                "value": "greek metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_greek_rock",
+              "name": {
+                "value": "greek rock",
                 "synonyms": [
 
                 ]
@@ -10391,6 +10787,24 @@
               }
             },
             {
+              "id": "genre_guatemalan_indie",
+              "name": {
+                "value": "guatemalan indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_guatemalan_pop",
+              "name": {
+                "value": "guatemalan pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_guidance",
               "name": {
                 "value": "guidance",
@@ -10405,6 +10819,15 @@
                 "value": "guitar case",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_gymcore",
+              "name": {
+                "value": "gymcore",
+                "synonyms": [
+                  "gym core"
                 ]
               }
             },
@@ -10967,6 +11390,24 @@
               }
             },
             {
+              "id": "genre_houston_indie",
+              "name": {
+                "value": "houston indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_houston_rap",
+              "name": {
+                "value": "houston rap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_huayno",
               "name": {
                 "value": "huayno",
@@ -11228,6 +11669,15 @@
               }
             },
             {
+              "id": "genre_indiana_indie",
+              "name": {
+                "value": "indiana indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_indie_anthem_folk",
               "name": {
                 "value": "indie anthem-folk",
@@ -11444,6 +11894,15 @@
               }
             },
             {
+              "id": "genre_indie_salvadoreno",
+              "name": {
+                "value": "indie salvadoreno",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_indie_shoegaze",
               "name": {
                 "value": "indie shoegaze",
@@ -11609,6 +12068,15 @@
               "id": "genre_industrial_rock",
               "name": {
                 "value": "industrial rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_indy_indie",
+              "name": {
+                "value": "indy indie",
                 "synonyms": [
 
                 ]
@@ -12257,6 +12725,15 @@
               }
             },
             {
+              "id": "genre_jacksonville_indie",
+              "name": {
+                "value": "jacksonville indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_jam_band",
               "name": {
                 "value": "jam band",
@@ -12467,6 +12944,15 @@
               "id": "genre_jazz_composition",
               "name": {
                 "value": "jazz composition",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_jazz_cubano",
+              "name": {
+                "value": "jazz cubano",
                 "synonyms": [
 
                 ]
@@ -12869,9 +13355,27 @@
               }
             },
             {
+              "id": "genre_kazakh_pop",
+              "name": {
+                "value": "kazakh pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_kc_indie",
               "name": {
                 "value": "kc indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_kentucky_indie",
+              "name": {
+                "value": "kentucky indie",
                 "synonyms": [
 
                 ]
@@ -13355,6 +13859,24 @@
               }
             },
             {
+              "id": "genre_latvian_indie",
+              "name": {
+                "value": "latvian indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_latvian_metal",
+              "name": {
+                "value": "latvian metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_latvian_pop",
               "name": {
                 "value": "latvian pop",
@@ -13364,9 +13886,36 @@
               }
             },
             {
+              "id": "genre_latvian_rock",
+              "name": {
+                "value": "latvian rock",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_lawrence_ks_indie",
+              "name": {
+                "value": "lawrence ks indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_lds",
               "name": {
                 "value": "lds",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_lds_youth",
+              "name": {
+                "value": "lds youth",
                 "synonyms": [
 
                 ]
@@ -13385,6 +13934,15 @@
               "id": "genre_leeds_indie",
               "name": {
                 "value": "leeds indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_leon_gto_indie",
+              "name": {
+                "value": "leon gto indie",
                 "synonyms": [
 
                 ]
@@ -13475,6 +14033,15 @@
               "id": "genre_limerick_indie",
               "name": {
                 "value": "limerick indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_lincoln_ne_indie",
+              "name": {
+                "value": "lincoln ne indie",
                 "synonyms": [
 
                 ]
@@ -13625,6 +14192,15 @@
               }
             },
             {
+              "id": "genre_lovsang",
+              "name": {
+                "value": "lovsang",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_lowercase",
               "name": {
                 "value": "lowercase",
@@ -13661,9 +14237,36 @@
               }
             },
             {
+              "id": "genre_luxembourgian_hip_hop",
+              "name": {
+                "value": "luxembourgian hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_luxembourgian_indie",
+              "name": {
+                "value": "luxembourgian indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_macedonian_folk",
               "name": {
                 "value": "macedonian folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_macedonian_indie",
+              "name": {
+                "value": "macedonian indie",
                 "synonyms": [
 
                 ]
@@ -14201,6 +14804,15 @@
               }
             },
             {
+              "id": "genre_memphis_americana",
+              "name": {
+                "value": "memphis americana",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_memphis_blues",
               "name": {
                 "value": "memphis blues",
@@ -14213,6 +14825,15 @@
               "id": "genre_memphis_hip_hop",
               "name": {
                 "value": "memphis hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_memphis_indie",
+              "name": {
+                "value": "memphis indie",
                 "synonyms": [
 
                 ]
@@ -14327,6 +14948,15 @@
               }
             },
             {
+              "id": "genre_metal_uruguayo",
+              "name": {
+                "value": "metal uruguayo",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_metalcore",
               "name": {
                 "value": "metalcore",
@@ -14348,6 +14978,15 @@
               "id": "genre_metropopolis",
               "name": {
                 "value": "metropopolis",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_mexican_black_metal",
+              "name": {
+                "value": "mexican black metal",
                 "synonyms": [
 
                 ]
@@ -14507,6 +15146,24 @@
               }
             },
             {
+              "id": "genre_miami_indie",
+              "name": {
+                "value": "miami indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_michigan_folk",
+              "name": {
+                "value": "michigan folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_michigan_indie",
               "name": {
                 "value": "michigan indie",
@@ -14546,6 +15203,24 @@
               "id": "genre_military_band",
               "name": {
                 "value": "military band",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_milwaukee_hip_hop",
+              "name": {
+                "value": "milwaukee hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_milwaukee_indie",
+              "name": {
+                "value": "milwaukee indie",
                 "synonyms": [
 
                 ]
@@ -14636,6 +15311,15 @@
               "id": "genre_mississippi_indie",
               "name": {
                 "value": "mississippi indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_missouri_indie",
+              "name": {
+                "value": "missouri indie",
                 "synonyms": [
 
                 ]
@@ -15164,6 +15848,15 @@
               }
             },
             {
+              "id": "genre_neo_r_b",
+              "name": {
+                "value": "neo r&b",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_neo_soul",
               "name": {
                 "value": "neo soul",
@@ -15282,6 +15975,15 @@
               }
             },
             {
+              "id": "genre_neo_traditional_bluegrass",
+              "name": {
+                "value": "neo-traditional bluegrass",
+                "synonyms": [
+                  "neo traditional bluegrass"
+                ]
+              }
+            },
+            {
               "id": "genre_neo_traditional_country",
               "name": {
                 "value": "neo-traditional country",
@@ -15312,6 +16014,15 @@
               "id": "genre_neomelodici",
               "name": {
                 "value": "neomelodici",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_neon_pop_punk",
+              "name": {
+                "value": "neon pop punk",
                 "synonyms": [
 
                 ]
@@ -15435,6 +16146,24 @@
               }
             },
             {
+              "id": "genre_new_england_americana",
+              "name": {
+                "value": "new england americana",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_new_hampshire_indie",
+              "name": {
+                "value": "new hampshire indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_new_jack_smooth",
               "name": {
                 "value": "new jack smooth",
@@ -15456,6 +16185,15 @@
               "id": "genre_new_jersey_indie",
               "name": {
                 "value": "new jersey indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_new_jersey_rap",
+              "name": {
+                "value": "new jersey rap",
                 "synonyms": [
 
                 ]
@@ -15501,6 +16239,15 @@
               "id": "genre_new_orleans_jazz",
               "name": {
                 "value": "new orleans jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_new_orleans_rap",
+              "name": {
+                "value": "new orleans rap",
                 "synonyms": [
 
                 ]
@@ -15591,6 +16338,15 @@
               "id": "genre_nigerian_hip_hop",
               "name": {
                 "value": "nigerian hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nigerian_pop",
+              "name": {
+                "value": "nigerian pop",
                 "synonyms": [
 
                 ]
@@ -15726,6 +16482,33 @@
               "id": "genre_norteno",
               "name": {
                 "value": "norteno",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_north_carolina_emo",
+              "name": {
+                "value": "north carolina emo",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_north_carolina_indie",
+              "name": {
+                "value": "north carolina indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_north_dakota_indie",
+              "name": {
+                "value": "north dakota indie",
                 "synonyms": [
 
                 ]
@@ -16021,9 +16804,36 @@
               }
             },
             {
+              "id": "genre_nwocr",
+              "name": {
+                "value": "nwocr",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_nwothm",
               "name": {
                 "value": "nwothm",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nyc_rap",
+              "name": {
+                "value": "nyc rap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nyhc",
+              "name": {
+                "value": "nyhc",
                 "synonyms": [
 
                 ]
@@ -16042,6 +16852,15 @@
               "id": "genre_nz_indie",
               "name": {
                 "value": "nz indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_nz_metal",
+              "name": {
+                "value": "nz metal",
                 "synonyms": [
 
                 ]
@@ -16651,6 +17470,24 @@
               }
             },
             {
+              "id": "genre_peruvian_metal",
+              "name": {
+                "value": "peruvian metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_peruvian_punk",
+              "name": {
+                "value": "peruvian punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_peruvian_rock",
               "name": {
                 "value": "peruvian rock",
@@ -16672,6 +17509,15 @@
               "id": "genre_philly_indie",
               "name": {
                 "value": "philly indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_philly_rap",
+              "name": {
+                "value": "philly rap",
                 "synonyms": [
 
                 ]
@@ -16777,9 +17623,36 @@
               }
             },
             {
+              "id": "genre_pittsburgh_indie",
+              "name": {
+                "value": "pittsburgh indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_pittsburgh_rap",
+              "name": {
+                "value": "pittsburgh rap",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_pixie",
               "name": {
                 "value": "pixie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_png_pop",
+              "name": {
+                "value": "png pop",
                 "synonyms": [
 
                 ]
@@ -17110,6 +17983,15 @@
               }
             },
             {
+              "id": "genre_pop_folk",
+              "name": {
+                "value": "pop folk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_pop_house",
               "name": {
                 "value": "pop house",
@@ -17236,6 +18118,15 @@
               }
             },
             {
+              "id": "genre_portuguese_death_metal",
+              "name": {
+                "value": "portuguese death metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_portuguese_early_music",
               "name": {
                 "value": "portuguese early music",
@@ -17275,6 +18166,15 @@
               "id": "genre_portuguese_jazz",
               "name": {
                 "value": "portuguese jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_portuguese_metal",
+              "name": {
+                "value": "portuguese metal",
                 "synonyms": [
 
                 ]
@@ -17986,6 +18886,15 @@
               }
             },
             {
+              "id": "genre_rap_cristao",
+              "name": {
+                "value": "rap cristao",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_rap_cristiano",
               "name": {
                 "value": "rap cristiano",
@@ -18256,6 +19165,24 @@
               }
             },
             {
+              "id": "genre_retro_soul",
+              "name": {
+                "value": "retro soul",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_rhode_island_indie",
+              "name": {
+                "value": "rhode island indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_rhythm_and_blues",
               "name": {
                 "value": "rhythm and blues",
@@ -18394,6 +19321,15 @@
               "id": "genre_rock_gaucho",
               "name": {
                 "value": "rock gaucho",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_rock_gospel_brasileiro",
+              "name": {
+                "value": "rock gospel brasileiro",
                 "synonyms": [
 
                 ]
@@ -18679,6 +19615,15 @@
               }
             },
             {
+              "id": "genre_russian_experimental_electronic",
+              "name": {
+                "value": "russian experimental electronic",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_russian_folk",
               "name": {
                 "value": "russian folk",
@@ -18691,6 +19636,15 @@
               "id": "genre_russian_hip_hop",
               "name": {
                 "value": "russian hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_russian_indie",
+              "name": {
+                "value": "russian indie",
                 "synonyms": [
 
                 ]
@@ -18729,6 +19683,15 @@
                 "value": "russian pop",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_russian_post_punk",
+              "name": {
+                "value": "russian post-punk",
+                "synonyms": [
+                  "russian post punk"
                 ]
               }
             },
@@ -18823,6 +19786,15 @@
               }
             },
             {
+              "id": "genre_salsa_cubana",
+              "name": {
+                "value": "salsa cubana",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_salsa_international",
               "name": {
                 "value": "salsa international",
@@ -18880,6 +19852,33 @@
               "id": "genre_samoan_pop",
               "name": {
                 "value": "samoan pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_san_antonio_indie",
+              "name": {
+                "value": "san antonio indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_san_diego_indie",
+              "name": {
+                "value": "san diego indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_san_diego_rap",
+              "name": {
+                "value": "san diego rap",
                 "synonyms": [
 
                 ]
@@ -19156,6 +20155,15 @@
               }
             },
             {
+              "id": "genre_sertanejo_gospel",
+              "name": {
+                "value": "sertanejo gospel",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_sertanejo_pop",
               "name": {
                 "value": "sertanejo pop",
@@ -19195,6 +20203,15 @@
               "id": "genre_shabad",
               "name": {
                 "value": "shabad",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_shamanic",
+              "name": {
+                "value": "shamanic",
                 "synonyms": [
 
                 ]
@@ -19273,6 +20290,15 @@
               }
             },
             {
+              "id": "genre_sinaloa_indie",
+              "name": {
+                "value": "sinaloa indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_singaporean_indie",
               "name": {
                 "value": "singaporean indie",
@@ -19323,6 +20349,15 @@
                 "value": "sinhala",
                 "synonyms": [
 
+                ]
+              }
+            },
+            {
+              "id": "genre_sinogaze",
+              "name": {
+                "value": "sinogaze",
+                "synonyms": [
+                  "sino gaze"
                 ]
               }
             },
@@ -19498,6 +20533,15 @@
               }
             },
             {
+              "id": "genre_slayer",
+              "name": {
+                "value": "slayer",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_slc_indie",
               "name": {
                 "value": "slc indie",
@@ -19654,6 +20698,15 @@
               "id": "genre_solipsynthm",
               "name": {
                 "value": "solipsynthm",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_son_cubano",
+              "name": {
+                "value": "son cubano",
                 "synonyms": [
 
                 ]
@@ -19849,6 +20902,24 @@
               }
             },
             {
+              "id": "genre_south_carolina_indie",
+              "name": {
+                "value": "south carolina indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_south_dakota_indie",
+              "name": {
+                "value": "south dakota indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_southeast_asian_post_rock",
               "name": {
                 "value": "southeast asian post-rock",
@@ -20029,6 +21100,24 @@
               }
             },
             {
+              "id": "genre_spanish_jazz",
+              "name": {
+                "value": "spanish jazz",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_spanish_metal",
+              "name": {
+                "value": "spanish metal",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_spanish_modern_rock",
               "name": {
                 "value": "spanish modern rock",
@@ -20167,6 +21256,15 @@
               "id": "genre_spoken_word",
               "name": {
                 "value": "spoken word",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_springfield_mo_indie",
+              "name": {
+                "value": "springfield mo indie",
                 "synonyms": [
 
                 ]
@@ -21253,6 +22351,15 @@
               }
             },
             {
+              "id": "genre_tongan_pop",
+              "name": {
+                "value": "tongan pop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_toronto_indie",
               "name": {
                 "value": "toronto indie",
@@ -21766,6 +22873,15 @@
               }
             },
             {
+              "id": "genre_turkish_soundtrack",
+              "name": {
+                "value": "turkish soundtrack",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_turkish_trap",
               "name": {
                 "value": "turkish trap",
@@ -21865,6 +22981,15 @@
               }
             },
             {
+              "id": "genre_uk_beatdown",
+              "name": {
+                "value": "uk beatdown",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_uk_contemporary_r_b",
               "name": {
                 "value": "uk contemporary r&b",
@@ -21928,6 +23053,15 @@
               }
             },
             {
+              "id": "genre_uk_pop_punk",
+              "name": {
+                "value": "uk pop punk",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_uk_post_punk",
               "name": {
                 "value": "uk post-punk",
@@ -21940,6 +23074,15 @@
               "id": "genre_uk_reggae",
               "name": {
                 "value": "uk reggae",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_ukhc",
+              "name": {
+                "value": "ukhc",
                 "synonyms": [
 
                 ]
@@ -22291,6 +23434,15 @@
               "id": "genre_venezuelan_indie",
               "name": {
                 "value": "venezuelan indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_venezuelan_metal",
+              "name": {
+                "value": "venezuelan metal",
                 "synonyms": [
 
                 ]
@@ -22837,6 +23989,24 @@
               }
             },
             {
+              "id": "genre_west_virginia_indie",
+              "name": {
+                "value": "west virginia indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_western_mass_indie",
+              "name": {
+                "value": "western mass indie",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
               "id": "genre_western_swing",
               "name": {
                 "value": "western swing",
@@ -22867,6 +24037,15 @@
               "id": "genre_winnipeg_hip_hop",
               "name": {
                 "value": "winnipeg hip hop",
+                "synonyms": [
+
+                ]
+              }
+            },
+            {
+              "id": "genre_wisconsin_indie",
+              "name": {
+                "value": "wisconsin indie",
                 "synonyms": [
 
                 ]
@@ -22977,6 +24156,15 @@
                 "value": "wrock",
                 "synonyms": [
                   "w rock"
+                ]
+              }
+            },
+            {
+              "id": "genre_wyoming_indie",
+              "name": {
+                "value": "wyoming indie",
+                "synonyms": [
+
                 ]
               }
             },

@@ -5,7 +5,7 @@ Available now in the Alexa Skills store: <br>
 
 ## Usage
 
-Play over 2,500 musical genres and styles on Spotify by name or at random. Explore similar genres and music from around the world. Follow playlists for genres you discover so you can play them from Spotify anywhere.
+Play over 2,600 musical genres and styles on Spotify by name or at random. Explore similar genres and music from around the world. Follow playlists for genres you discover so you can play them from Spotify anywhere.
 
 This skill requires a Spotify Premium account to play music and follow playlists. Genre information comes from [everynoise.com](http://everynoise.com) by Glenn McDonald.
 
