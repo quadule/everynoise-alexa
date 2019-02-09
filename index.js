@@ -143,7 +143,7 @@ let handlers = {
         const message = "Sorry, I couldn't find a genre for " + spokenGenreName + ".";
         this.emit(':tellWithCard',
           message,
-          "Couldn't find genre " + genre.name,
+          "Couldn't find genre " + spokenGenreName,
           message
         );
       } else {
